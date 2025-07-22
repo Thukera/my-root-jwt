@@ -125,3 +125,6 @@
 [INFO ] 2025-07-22 19:56:53.674 [main] MyFinancesBffApplicationTests - Starting MyFinancesBffApplicationTests using Java 21.0.4 with PID 16076 (started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
 [INFO ] 2025-07-22 19:56:53.697 [main] MyFinancesBffApplicationTests - No active profile set, falling back to 1 default profile: "default"
 [INFO ] 2025-07-22 19:57:02.361 [main] MyFinancesBffApplicationTests - Started MyFinancesBffApplicationTests in 9.53 seconds (process running for 11.39)
+[INFO ] 2025-07-22 20:30:14.186 [main] MyFinancesBffApplicationTests - Starting MyFinancesBffApplicationTests using Java 21.0.4 with PID 24332 (started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
+[INFO ] 2025-07-22 20:30:14.205 [main] MyFinancesBffApplicationTests - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2025-07-22 20:30:22.244 [main] MyFinancesBffApplicationTests - Started MyFinancesBffApplicationTests in 8.835 seconds (process running for 10.659)

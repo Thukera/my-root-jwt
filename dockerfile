@@ -7,6 +7,6 @@ RUN mvn clean package -DskipTests
 # ---------- Runtime stage ----------
 FROM openjdk:17-jdk-slim
 WORKDIR /app
-COPY --from=builder /app/target/my-finances-bff.jar ./my-finances-bff.jar
+COPY --from=builder /app/target/my-root-jwt.jar ./my-root-jwt.jar
 EXPOSE 9090
-CMD ["java", "-jar", "oneview.jar"]
+CMD ["java", "-jar", "my-root-jwt.jar"]
