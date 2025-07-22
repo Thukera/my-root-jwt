@@ -1,7 +1,7 @@
 package com.thukera.model.enums;
 
 public enum RoleName {
-	ROLE_USER("user"), ROLE_PM("pm"), ROLE_ADMIN("admin"), ROLE_PARAMS("params"), ROLE_ZABBIX("zabbix");
+	ROLE_USER("user"), ROLE_ADMIN("admin");
 
 	private String key;
 

@@ -116,3 +116,12 @@
 [INFO ] 2025-07-22 19:24:47.699 [main] MyFinancesBffApplicationTests - Starting MyFinancesBffApplicationTests using Java 21.0.4 with PID 608 (started by nitro in C:\Users\nitro\Workspace\Projetos\Estudos\MinhasFinancas\MinhasFinancasBFF\my-finances-bff)
 [INFO ] 2025-07-22 19:24:47.719 [main] MyFinancesBffApplicationTests - No active profile set, falling back to 1 default profile: "default"
 [INFO ] 2025-07-22 19:24:55.836 [main] MyFinancesBffApplicationTests - Started MyFinancesBffApplicationTests in 8.93 seconds (process running for 10.848)
+[INFO ] 2025-07-22 19:38:11.673 [restartedMain] MyFinancesBffApplication - Starting MyFinancesBffApplication using Java 21.0.4 with PID 5908 (C:\Users\nitro\Workspace\Projetos\Estudos\MinhasFinancas\MinhasFinancasBFF\my-finances-bff\target\classes started by nitro in C:\Users\nitro\Workspace\Projetos\Estudos\MinhasFinancas\MinhasFinancasBFF\my-finances-bff)
+[INFO ] 2025-07-22 19:38:11.682 [restartedMain] MyFinancesBffApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2025-07-22 19:38:16.960 [restartedMain] MyFinancesBffApplication - Started MyFinancesBffApplication in 5.91 seconds (process running for 7.159)
+[INFO ] 2025-07-22 19:38:16.964 [restartedMain] MyFinancesBffApplication - ## ######## ######## ######## ######## ######## ##########
+[INFO ] 2025-07-22 19:38:16.964 [restartedMain] MyFinancesBffApplication - ########  MY FINANCES BACKEND APPLICATION STARTER ########
+[INFO ] 2025-07-22 19:38:16.964 [restartedMain] MyFinancesBffApplication - ## ######## ######## ######## ######## ######## ##########
+[INFO ] 2025-07-22 19:56:53.674 [main] MyFinancesBffApplicationTests - Starting MyFinancesBffApplicationTests using Java 21.0.4 with PID 16076 (started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
+[INFO ] 2025-07-22 19:56:53.697 [main] MyFinancesBffApplicationTests - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2025-07-22 19:57:02.361 [main] MyFinancesBffApplicationTests - Started MyFinancesBffApplicationTests in 9.53 seconds (process running for 11.39)

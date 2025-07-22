@@ -127,7 +127,7 @@ public class AuthRestAPIs {
 
                     break;
                 case "user":
-                    Role pmRole = roleRepository.findByName(RoleName.ROLE_PM)
+                    Role pmRole = roleRepository.findByName(RoleName.ROLE_USER)
                     .orElseThrow(() -> new RuntimeException("Fail! -> Cause: PM Role não encontrada."));
                     roles.add(pmRole);
 
