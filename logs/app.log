@@ -1,0 +1,118 @@
+[INFO ] 2025-07-22 16:03:53.996 [main] MyFinancesBffApplication - Starting MyFinancesBffApplication using Java 21.0.4 with PID 36012 (C:\Users\nitro\Workspace\STS\my-finances-bff\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-finances-bff)
+[INFO ] 2025-07-22 16:03:54.006 [main] MyFinancesBffApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2025-07-22 16:08:43.399 [main] MyFinancesBffApplication - Starting MyFinancesBffApplication using Java 21.0.4 with PID 24428 (C:\Users\nitro\Workspace\STS\my-finances-bff\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-finances-bff)
+[INFO ] 2025-07-22 16:08:43.409 [main] MyFinancesBffApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2025-07-22 16:08:46.292 [main] MyFinancesBffApplication - Started MyFinancesBffApplication in 3.584 seconds (process running for 4.695)
+[INFO ] 2025-07-22 16:11:18.600 [main] MyFinancesBffApplication - Starting MyFinancesBffApplication using Java 21.0.4 with PID 32720 (C:\Users\nitro\Workspace\STS\my-finances-bff\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-finances-bff)
+[INFO ] 2025-07-22 16:11:18.612 [main] MyFinancesBffApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2025-07-22 16:11:21.408 [main] MyFinancesBffApplication - Started MyFinancesBffApplication in 3.445 seconds (process running for 4.62)
+[INFO ] 2025-07-22 16:16:14.077 [main] MyFinancesBffApplication - Starting MyFinancesBffApplication using Java 21.0.4 with PID 32476 (C:\Users\nitro\Workspace\Projetos\Estudos\MinhasFinancas\MinhasFinancasBFF\my-finances-bff\target\classes started by nitro in C:\Users\nitro\Workspace\Projetos\Estudos\MinhasFinancas\MinhasFinancasBFF\my-finances-bff)
+[INFO ] 2025-07-22 16:16:14.087 [main] MyFinancesBffApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2025-07-22 16:16:16.873 [main] MyFinancesBffApplication - Started MyFinancesBffApplication in 3.418 seconds (process running for 4.567)
+[INFO ] 2025-07-22 16:16:16.878 [main] MyFinancesBffApplication - ######## ######## ######## ######## ######## ########
+[INFO ] 2025-07-22 16:16:16.878 [main] MyFinancesBffApplication - ########  MY FINANCES BACKEND APPLICATION ########
+[INFO ] 2025-07-22 16:18:39.121 [main] MyFinancesBffApplication - Starting MyFinancesBffApplication using Java 21.0.4 with PID 5364 (C:\Users\nitro\Workspace\Projetos\Estudos\MinhasFinancas\MinhasFinancasBFF\my-finances-bff\target\classes started by nitro in C:\Users\nitro\Workspace\Projetos\Estudos\MinhasFinancas\MinhasFinancasBFF\my-finances-bff)
+[INFO ] 2025-07-22 16:18:39.133 [main] MyFinancesBffApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2025-07-22 16:18:42.132 [main] MyFinancesBffApplication - Started MyFinancesBffApplication in 3.656 seconds (process running for 4.834)
+[INFO ] 2025-07-22 16:18:42.135 [main] MyFinancesBffApplication - ######## ######## ######## ######## ######## ########
+[INFO ] 2025-07-22 16:18:42.135 [main] MyFinancesBffApplication - ########  MY FINANCES BACKEND APPLICATION STARTER ########
+[INFO ] 2025-07-22 17:26:33.146 [restartedMain] MyFinancesBffApplication - Starting MyFinancesBffApplication using Java 21.0.4 with PID 11792 (C:\Users\nitro\Workspace\Projetos\Estudos\MinhasFinancas\MinhasFinancasBFF\my-finances-bff\target\classes started by nitro in C:\Users\nitro\Workspace\Projetos\Estudos\MinhasFinancas\MinhasFinancasBFF\my-finances-bff)
+[INFO ] 2025-07-22 17:26:33.156 [restartedMain] MyFinancesBffApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2025-07-22 17:50:19.918 [main] MyFinancesBffApplicationTests - Starting MyFinancesBffApplicationTests using Java 21.0.4 with PID 26596 (started by nitro in C:\Users\nitro\Workspace\Projetos\Estudos\MinhasFinancas\MinhasFinancasBFF\my-finances-bff)
+[INFO ] 2025-07-22 17:50:19.937 [main] MyFinancesBffApplicationTests - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2025-07-22 17:52:11.321 [main] MyFinancesBffApplicationTests - Starting MyFinancesBffApplicationTests using Java 21.0.4 with PID 6596 (started by nitro in C:\Users\nitro\Workspace\Projetos\Estudos\MinhasFinancas\MinhasFinancasBFF\my-finances-bff)
+[INFO ] 2025-07-22 17:52:11.339 [main] MyFinancesBffApplicationTests - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2025-07-22 17:52:41.468 [restartedMain] MyFinancesBffApplication - Starting MyFinancesBffApplication using Java 21.0.4 with PID 28644 (C:\Users\nitro\Workspace\Projetos\Estudos\MinhasFinancas\MinhasFinancasBFF\my-finances-bff\target\classes started by nitro in C:\Users\nitro\Workspace\Projetos\Estudos\MinhasFinancas\MinhasFinancasBFF\my-finances-bff)
+[INFO ] 2025-07-22 17:52:41.483 [restartedMain] MyFinancesBffApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2025-07-22 18:04:35.072 [restartedMain] MyFinancesBffApplication - Starting MyFinancesBffApplication using Java 21.0.4 with PID 33212 (C:\Users\nitro\Workspace\Projetos\Estudos\MinhasFinancas\MinhasFinancasBFF\my-finances-bff\target\classes started by nitro in C:\Users\nitro\Workspace\Projetos\Estudos\MinhasFinancas\MinhasFinancasBFF\my-finances-bff)
+[INFO ] 2025-07-22 18:04:35.088 [restartedMain] MyFinancesBffApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2025-07-22 18:25:22.484 [restartedMain] MyFinancesBffApplication - Starting MyFinancesBffApplication using Java 21.0.4 with PID 11812 (C:\Users\nitro\Workspace\Projetos\Estudos\MinhasFinancas\MinhasFinancasBFF\my-finances-bff\target\classes started by nitro in C:\Users\nitro\Workspace\Projetos\Estudos\MinhasFinancas\MinhasFinancasBFF\my-finances-bff)
+[INFO ] 2025-07-22 18:25:22.499 [restartedMain] MyFinancesBffApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2025-07-22 18:27:51.127 [restartedMain] MyFinancesBffApplication - Starting MyFinancesBffApplication using Java 21.0.4 with PID 18424 (C:\Users\nitro\Workspace\Projetos\Estudos\MinhasFinancas\MinhasFinancasBFF\my-finances-bff\target\classes started by nitro in C:\Users\nitro\Workspace\Projetos\Estudos\MinhasFinancas\MinhasFinancasBFF\my-finances-bff)
+[INFO ] 2025-07-22 18:27:51.138 [restartedMain] MyFinancesBffApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2025-07-22 18:37:52.004 [restartedMain] MyFinancesBffApplication - Starting MyFinancesBffApplication using Java 21.0.4 with PID 29500 (C:\Users\nitro\Workspace\Projetos\Estudos\MinhasFinancas\MinhasFinancasBFF\my-finances-bff\target\classes started by nitro in C:\Users\nitro\Workspace\Projetos\Estudos\MinhasFinancas\MinhasFinancasBFF\my-finances-bff)
+[INFO ] 2025-07-22 18:37:52.017 [restartedMain] MyFinancesBffApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2025-07-22 18:40:13.280 [restartedMain] MyFinancesBffApplication - Starting MyFinancesBffApplication using Java 21.0.4 with PID 612 (C:\Users\nitro\Workspace\Projetos\Estudos\MinhasFinancas\MinhasFinancasBFF\my-finances-bff\target\classes started by nitro in C:\Users\nitro\Workspace\Projetos\Estudos\MinhasFinancas\MinhasFinancasBFF\my-finances-bff)
+[INFO ] 2025-07-22 18:40:13.291 [restartedMain] MyFinancesBffApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2025-07-22 18:41:07.760 [main] MyFinancesBffApplicationTests - Starting MyFinancesBffApplicationTests using Java 21.0.4 with PID 24072 (started by nitro in C:\Users\nitro\Workspace\Projetos\Estudos\MinhasFinancas\MinhasFinancasBFF\my-finances-bff)
+[INFO ] 2025-07-22 18:41:07.800 [main] MyFinancesBffApplicationTests - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2025-07-22 18:51:43.733 [restartedMain] MyFinancesBffApplication - Starting MyFinancesBffApplication using Java 21.0.4 with PID 35896 (C:\Users\nitro\Workspace\Projetos\Estudos\MinhasFinancas\MinhasFinancasBFF\my-finances-bff\target\classes started by nitro in C:\Users\nitro\Workspace\Projetos\Estudos\MinhasFinancas\MinhasFinancasBFF\my-finances-bff)
+[INFO ] 2025-07-22 18:51:43.744 [restartedMain] MyFinancesBffApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2025-07-22 18:54:10.359 [restartedMain] MyFinancesBffApplication - Starting MyFinancesBffApplication using Java 21.0.4 with PID 19888 (C:\Users\nitro\Workspace\Projetos\Estudos\MinhasFinancas\MinhasFinancasBFF\my-finances-bff\target\classes started by nitro in C:\Users\nitro\Workspace\Projetos\Estudos\MinhasFinancas\MinhasFinancasBFF\my-finances-bff)
+[INFO ] 2025-07-22 18:54:10.372 [restartedMain] MyFinancesBffApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2025-07-22 18:54:46.784 [restartedMain] MyFinancesBffApplication - Starting MyFinancesBffApplication using Java 21.0.4 with PID 39820 (C:\Users\nitro\Workspace\Projetos\Estudos\MinhasFinancas\MinhasFinancasBFF\my-finances-bff\target\classes started by nitro in C:\Users\nitro\Workspace\Projetos\Estudos\MinhasFinancas\MinhasFinancasBFF\my-finances-bff)
+[INFO ] 2025-07-22 18:54:46.793 [restartedMain] MyFinancesBffApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2025-07-22 18:55:45.740 [main] MyFinancesBffApplicationTests - Starting MyFinancesBffApplicationTests using Java 21.0.4 with PID 26580 (started by nitro in C:\Users\nitro\Workspace\Projetos\Estudos\MinhasFinancas\MinhasFinancasBFF\my-finances-bff)
+[INFO ] 2025-07-22 18:55:45.768 [main] MyFinancesBffApplicationTests - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2025-07-22 18:59:17.040 [restartedMain] MyFinancesBffApplication - Starting MyFinancesBffApplication using Java 21.0.4 with PID 7080 (C:\Users\nitro\Workspace\Projetos\Estudos\MinhasFinancas\MinhasFinancasBFF\my-finances-bff\target\classes started by nitro in C:\Users\nitro\Workspace\Projetos\Estudos\MinhasFinancas\MinhasFinancasBFF\my-finances-bff)
+[INFO ] 2025-07-22 18:59:17.051 [restartedMain] MyFinancesBffApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2025-07-22 18:59:22.000 [restartedMain] MyFinancesBffApplication - Started MyFinancesBffApplication in 5.602 seconds (process running for 6.824)
+[INFO ] 2025-07-22 18:59:22.004 [restartedMain] MyFinancesBffApplication - ######## ######## ######## ######## ######## ########
+[INFO ] 2025-07-22 18:59:22.004 [restartedMain] MyFinancesBffApplication - ########  MY FINANCES BACKEND APPLICATION STARTER ########
+[ERROR] 2025-07-22 19:00:10.754 [http-nio-7280-exec-1] JwtAuthEntryPoint - Unauthorized error. Message - Full authentication is required to access this resource
+[ERROR] 2025-07-22 19:00:10.771 [http-nio-7280-exec-1] JwtAuthEntryPoint - Unauthorized error. Message - Full authentication is required to access this resource
+[INFO ] 2025-07-22 19:00:32.060 [restartedMain] MyFinancesBffApplication - Starting MyFinancesBffApplication using Java 21.0.4 with PID 7080 (C:\Users\nitro\Workspace\Projetos\Estudos\MinhasFinancas\MinhasFinancasBFF\my-finances-bff\target\classes started by nitro in C:\Users\nitro\Workspace\Projetos\Estudos\MinhasFinancas\MinhasFinancasBFF\my-finances-bff)
+[INFO ] 2025-07-22 19:00:32.062 [restartedMain] MyFinancesBffApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2025-07-22 19:00:33.030 [restartedMain] MyFinancesBffApplication - Started MyFinancesBffApplication in 1.002 seconds (process running for 77.853)
+[INFO ] 2025-07-22 19:00:33.032 [restartedMain] MyFinancesBffApplication - ######## ######## ######## ######## ######## ########
+[INFO ] 2025-07-22 19:00:33.032 [restartedMain] MyFinancesBffApplication - ########  MY FINANCES BACKEND APPLICATION STARTER ########
+[INFO ] 2025-07-22 19:02:18.462 [restartedMain] MyFinancesBffApplication - Starting MyFinancesBffApplication using Java 21.0.4 with PID 7080 (C:\Users\nitro\Workspace\Projetos\Estudos\MinhasFinancas\MinhasFinancasBFF\my-finances-bff\target\classes started by nitro in C:\Users\nitro\Workspace\Projetos\Estudos\MinhasFinancas\MinhasFinancasBFF\my-finances-bff)
+[INFO ] 2025-07-22 19:02:18.462 [restartedMain] MyFinancesBffApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2025-07-22 19:02:19.387 [restartedMain] MyFinancesBffApplication - Started MyFinancesBffApplication in 0.957 seconds (process running for 184.21)
+[INFO ] 2025-07-22 19:02:19.388 [restartedMain] MyFinancesBffApplication - ######## ######## ######## ######## ######## ########
+[INFO ] 2025-07-22 19:02:19.388 [restartedMain] MyFinancesBffApplication - ########  MY FINANCES BACKEND APPLICATION STARTER ########
+[INFO ] 2025-07-22 19:03:44.869 [restartedMain] MyFinancesBffApplication - Starting MyFinancesBffApplication using Java 21.0.4 with PID 7080 (C:\Users\nitro\Workspace\Projetos\Estudos\MinhasFinancas\MinhasFinancasBFF\my-finances-bff\target\classes started by nitro in C:\Users\nitro\Workspace\Projetos\Estudos\MinhasFinancas\MinhasFinancasBFF\my-finances-bff)
+[INFO ] 2025-07-22 19:03:44.870 [restartedMain] MyFinancesBffApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2025-07-22 19:03:45.799 [restartedMain] MyFinancesBffApplication - Started MyFinancesBffApplication in 0.965 seconds (process running for 270.623)
+[INFO ] 2025-07-22 19:03:45.801 [restartedMain] MyFinancesBffApplication - ######## ######## ######## ######## ######## ########
+[INFO ] 2025-07-22 19:03:45.801 [restartedMain] MyFinancesBffApplication - ########  MY FINANCES BACKEND APPLICATION STARTER ########
+[INFO ] 2025-07-22 19:06:43.043 [restartedMain] MyFinancesBffApplication - Starting MyFinancesBffApplication using Java 21.0.4 with PID 31084 (C:\Users\nitro\Workspace\Projetos\Estudos\MinhasFinancas\MinhasFinancasBFF\my-finances-bff\target\classes started by nitro in C:\Users\nitro\Workspace\Projetos\Estudos\MinhasFinancas\MinhasFinancasBFF\my-finances-bff)
+[INFO ] 2025-07-22 19:06:43.053 [restartedMain] MyFinancesBffApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2025-07-22 19:06:49.950 [restartedMain] MyFinancesBffApplication - Started MyFinancesBffApplication in 7.52 seconds (process running for 8.761)
+[INFO ] 2025-07-22 19:06:49.953 [restartedMain] MyFinancesBffApplication - ## ######## ######## ######## ######## ######## ##########
+[INFO ] 2025-07-22 19:06:49.953 [restartedMain] MyFinancesBffApplication - ########  MY FINANCES BACKEND APPLICATION STARTER ########
+[INFO ] 2025-07-22 19:06:49.953 [restartedMain] MyFinancesBffApplication - ## ######## ######## ######## ######## ######## ##########
+[ERROR] 2025-07-22 19:15:24.896 [http-nio-9090-exec-2] JwtAuthEntryPoint - Unauthorized error. Message - Full authentication is required to access this resource
+[ERROR] 2025-07-22 19:15:24.912 [http-nio-9090-exec-2] JwtAuthEntryPoint - Unauthorized error. Message - Full authentication is required to access this resource
+[ERROR] 2025-07-22 19:15:33.682 [http-nio-9090-exec-3] JwtAuthEntryPoint - Unauthorized error. Message - Full authentication is required to access this resource
+[ERROR] 2025-07-22 19:16:27.621 [http-nio-9090-exec-4] JwtAuthEntryPoint - Unauthorized error. Message - Full authentication is required to access this resource
+[ERROR] 2025-07-22 19:16:27.623 [http-nio-9090-exec-4] JwtAuthEntryPoint - Unauthorized error. Message - Full authentication is required to access this resource
+[INFO ] 2025-07-22 19:17:01.580 [restartedMain] MyFinancesBffApplication - Starting MyFinancesBffApplication using Java 21.0.4 with PID 31084 (C:\Users\nitro\Workspace\Projetos\Estudos\MinhasFinancas\MinhasFinancasBFF\my-finances-bff\target\classes started by nitro in C:\Users\nitro\Workspace\Projetos\Estudos\MinhasFinancas\MinhasFinancasBFF\my-finances-bff)
+[INFO ] 2025-07-22 19:17:01.581 [restartedMain] MyFinancesBffApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2025-07-22 19:17:02.917 [restartedMain] MyFinancesBffApplication - Started MyFinancesBffApplication in 1.372 seconds (process running for 621.727)
+[INFO ] 2025-07-22 19:17:02.919 [restartedMain] MyFinancesBffApplication - ## ######## ######## ######## ######## ######## ##########
+[INFO ] 2025-07-22 19:17:02.919 [restartedMain] MyFinancesBffApplication - ########  MY FINANCES BACKEND APPLICATION STARTER ########
+[INFO ] 2025-07-22 19:17:02.919 [restartedMain] MyFinancesBffApplication - ## ######## ######## ######## ######## ######## ##########
+[INFO ] 2025-07-22 19:17:14.581 [restartedMain] MyFinancesBffApplication - Starting MyFinancesBffApplication using Java 21.0.4 with PID 31084 (C:\Users\nitro\Workspace\Projetos\Estudos\MinhasFinancas\MinhasFinancasBFF\my-finances-bff\target\classes started by nitro in C:\Users\nitro\Workspace\Projetos\Estudos\MinhasFinancas\MinhasFinancasBFF\my-finances-bff)
+[INFO ] 2025-07-22 19:17:14.582 [restartedMain] MyFinancesBffApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2025-07-22 19:17:15.779 [restartedMain] MyFinancesBffApplication - Started MyFinancesBffApplication in 1.229 seconds (process running for 634.59)
+[INFO ] 2025-07-22 19:17:15.780 [restartedMain] MyFinancesBffApplication - ## ######## ######## ######## ######## ######## ##########
+[INFO ] 2025-07-22 19:17:15.780 [restartedMain] MyFinancesBffApplication - ########  MY FINANCES BACKEND APPLICATION STARTER ########
+[INFO ] 2025-07-22 19:17:15.781 [restartedMain] MyFinancesBffApplication - ## ######## ######## ######## ######## ######## ##########
+[INFO ] 2025-07-22 19:17:23.379 [restartedMain] MyFinancesBffApplication - Starting MyFinancesBffApplication using Java 21.0.4 with PID 31084 (C:\Users\nitro\Workspace\Projetos\Estudos\MinhasFinancas\MinhasFinancasBFF\my-finances-bff\target\classes started by nitro in C:\Users\nitro\Workspace\Projetos\Estudos\MinhasFinancas\MinhasFinancasBFF\my-finances-bff)
+[INFO ] 2025-07-22 19:17:23.380 [restartedMain] MyFinancesBffApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2025-07-22 19:17:24.711 [restartedMain] MyFinancesBffApplication - Started MyFinancesBffApplication in 1.363 seconds (process running for 643.521)
+[INFO ] 2025-07-22 19:17:24.714 [restartedMain] MyFinancesBffApplication - ## ######## ######## ######## ######## ######## ##########
+[INFO ] 2025-07-22 19:17:24.714 [restartedMain] MyFinancesBffApplication - ########  MY FINANCES BACKEND APPLICATION STARTER ########
+[INFO ] 2025-07-22 19:17:24.714 [restartedMain] MyFinancesBffApplication - ## ######## ######## ######## ######## ######## ##########
+[ERROR] 2025-07-22 19:18:28.588 [http-nio-9090-exec-2] JwtAuthEntryPoint - Unauthorized error. Message - Full authentication is required to access this resource
+[ERROR] 2025-07-22 19:18:28.590 [http-nio-9090-exec-2] JwtAuthEntryPoint - Unauthorized error. Message - Full authentication is required to access this resource
+[INFO ] 2025-07-22 19:18:55.403 [restartedMain] MyFinancesBffApplication - Starting MyFinancesBffApplication using Java 21.0.4 with PID 31084 (C:\Users\nitro\Workspace\Projetos\Estudos\MinhasFinancas\MinhasFinancasBFF\my-finances-bff\target\classes started by nitro in C:\Users\nitro\Workspace\Projetos\Estudos\MinhasFinancas\MinhasFinancasBFF\my-finances-bff)
+[INFO ] 2025-07-22 19:18:55.403 [restartedMain] MyFinancesBffApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2025-07-22 19:18:56.473 [restartedMain] MyFinancesBffApplication - Started MyFinancesBffApplication in 1.101 seconds (process running for 735.284)
+[INFO ] 2025-07-22 19:18:56.476 [restartedMain] MyFinancesBffApplication - ## ######## ######## ######## ######## ######## ##########
+[INFO ] 2025-07-22 19:18:56.476 [restartedMain] MyFinancesBffApplication - ########  MY FINANCES BACKEND APPLICATION STARTER ########
+[INFO ] 2025-07-22 19:18:56.476 [restartedMain] MyFinancesBffApplication - ## ######## ######## ######## ######## ######## ##########
+[ERROR] 2025-07-22 19:19:28.089 [http-nio-9090-exec-2] JwtAuthEntryPoint - Unauthorized error. Message - Full authentication is required to access this resource
+[ERROR] 2025-07-22 19:19:28.090 [http-nio-9090-exec-2] JwtAuthEntryPoint - Unauthorized error. Message - Full authentication is required to access this resource
+[ERROR] 2025-07-22 19:20:11.288 [http-nio-9090-exec-3] JwtAuthEntryPoint - Unauthorized error. Message - Full authentication is required to access this resource
+[ERROR] 2025-07-22 19:20:11.289 [http-nio-9090-exec-3] JwtAuthEntryPoint - Unauthorized error. Message - Full authentication is required to access this resource
+[INFO ] 2025-07-22 19:20:24.241 [restartedMain] MyFinancesBffApplication - Starting MyFinancesBffApplication using Java 21.0.4 with PID 39912 (C:\Users\nitro\Workspace\Projetos\Estudos\MinhasFinancas\MinhasFinancasBFF\my-finances-bff\target\classes started by nitro in C:\Users\nitro\Workspace\Projetos\Estudos\MinhasFinancas\MinhasFinancasBFF\my-finances-bff)
+[INFO ] 2025-07-22 19:20:24.254 [restartedMain] MyFinancesBffApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2025-07-22 19:20:29.554 [restartedMain] MyFinancesBffApplication - Started MyFinancesBffApplication in 5.958 seconds (process running for 7.149)
+[INFO ] 2025-07-22 19:20:29.557 [restartedMain] MyFinancesBffApplication - ## ######## ######## ######## ######## ######## ##########
+[INFO ] 2025-07-22 19:20:29.557 [restartedMain] MyFinancesBffApplication - ########  MY FINANCES BACKEND APPLICATION STARTER ########
+[INFO ] 2025-07-22 19:20:29.557 [restartedMain] MyFinancesBffApplication - ## ######## ######## ######## ######## ######## ##########
+[INFO ] 2025-07-22 19:24:47.699 [main] MyFinancesBffApplicationTests - Starting MyFinancesBffApplicationTests using Java 21.0.4 with PID 608 (started by nitro in C:\Users\nitro\Workspace\Projetos\Estudos\MinhasFinancas\MinhasFinancasBFF\my-finances-bff)
+[INFO ] 2025-07-22 19:24:47.719 [main] MyFinancesBffApplicationTests - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2025-07-22 19:24:55.836 [main] MyFinancesBffApplicationTests - Started MyFinancesBffApplicationTests in 8.93 seconds (process running for 10.848)

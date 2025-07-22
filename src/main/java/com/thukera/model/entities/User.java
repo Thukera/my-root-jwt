@@ -1,0 +1,98 @@
+package com.thukera.model.entities;
+
+import java.util.HashSet;
+import java.util.Set;
+
+import com.thukera.model.messages.JwtResponse;
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.FetchType;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.JoinTable;
+import jakarta.persistence.ManyToMany;
+import jakarta.persistence.Table;
+import jakarta.persistence.Transient;
+import jakarta.persistence.UniqueConstraint;
+import jakarta.validation.constraints.Email;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.Size;
+
+import lombok.Data;
+
+
+@Entity
+@Table(name = "tb_users", uniqueConstraints = {
+        @UniqueConstraint(columnNames = {
+            "username"
+        }),
+        @UniqueConstraint(columnNames = {
+            "email"
+        }),
+        @UniqueConstraint(columnNames = {
+            "cpf"
+        })
+})
+
+
+@Data
+public class User{
+	@Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+	
+	@NotBlank
+	@Size(min = 11, max = 15)
+    @Column(unique = true)
+	private String cpf;
+
+    @NotBlank
+    @Size(min=3, max = 50)
+    private String name;
+
+    @NotBlank
+    @Size(min=3, max = 50)
+    @Column(unique = true)
+    private String username;
+
+    @NotBlank
+    @Size(max = 50)
+    @Email
+    @Column(unique = true)
+    private String email;
+
+    @NotBlank
+    @Size(min=6, max = 100)
+    private String password;
+    
+    @NotBlank
+    @Size(min = 6, max = 50)
+    private Long agentId;
+
+    @NotBlank
+    private Boolean status = false;
+
+    @Transient
+    private JwtResponse token;
+
+    @ManyToMany(fetch = FetchType.LAZY)
+    @JoinTable(name = "tb_user_roles", 
+        joinColumns = @JoinColumn(name = "user_id"), 
+        inverseJoinColumns = @JoinColumn(name = "role_id"))
+    private Set<Role> roles = new HashSet<>();
+
+    public User() {}
+
+    public User(String cpf, String name, String username, String email, String password, Long agentId, Boolean status) {
+        this.cpf = cpf;
+        this.name = name;
+        this.username = username;
+        this.email = email;
+        this.password = password;
+        this.agentId = agentId;
+        this.status = status;
+    }
+}
