@@ -60,6 +60,8 @@ public class AuthRestAPIs {
 
     @PostMapping("/signin")
     public ResponseEntity<?> authenticateUser(@Valid @RequestBody LoginForm loginRequest) {
+    	
+    	logger.info("######## ### ######## ###  SIGN IN  ### ######## ### ########");
 
         Optional<User> usuario;
 
@@ -79,7 +81,6 @@ public class AuthRestAPIs {
             );
 
             SecurityContextHolder.getContext().setAuthentication(authentication);
-
             String jwt = jwtProvider.generateJwtToken(authentication);
             JwtResponse token = new JwtResponse(jwt);
 
@@ -95,7 +96,11 @@ public class AuthRestAPIs {
 
     @PostMapping("/signup")
     @PreAuthorize("hasRole('ADMIN')")
-    public ResponseEntity<String> registerUser(@Valid @RequestBody SignUpForm signUpRequest) {
+    public ResponseEntity<?> registerUser(@Valid @RequestBody SignUpForm signUpRequest) {
+    	
+    	logger.info("######## ### ######## ###  SIGN UP  ### ######## ### ########");
+    	logger.info("######## ### Form : " + signUpRequest);
+    	
         if(userRepository.existsByUsername(signUpRequest.getUsername())) {
             return new ResponseEntity<String>("Fail -> Username está em uso!",
                     HttpStatus.BAD_REQUEST);
@@ -113,8 +118,13 @@ public class AuthRestAPIs {
 
         // Creating user's account
         User user = new User(signUpRequest.getCpf(), signUpRequest.getName(), signUpRequest.getUsername(),
-                signUpRequest.getEmail(), encoder.encode(signUpRequest.getPassword()), signUpRequest.getAgentId(), signUpRequest.getStatus());
+                signUpRequest.getEmail(), encoder.encode(signUpRequest.getPassword()), signUpRequest.getStatus());
 
+        //Empresa empresa = empresaRepository.findFirstById(signUpRequest.getCodigoEmpresa());
+
+        //user.setEmpresa(empresa);
+        logger.info("######## ### User To Create : " + user);
+        
         Set<String> strRoles = signUpRequest.getRole();
         Set<Role> roles = new HashSet<>();
 
@@ -126,11 +136,18 @@ public class AuthRestAPIs {
                     roles.add(adminRole);
 
                     break;
-                case "user":
-                    Role pmRole = roleRepository.findByName(RoleName.ROLE_USER)
-                    .orElseThrow(() -> new RuntimeException("Fail! -> Cause: PM Role não encontrada."));
-                    roles.add(pmRole);
-
+//                case "pm":
+//                    Role pmRole = roleRepository.findByName(RoleName.ROLE_PM)
+//                    .orElseThrow(() -> new RuntimeException("Fail! -> Cause: PM Role não encontrada."));
+//                    roles.add(pmRole);
+//
+//                    break;
+//                case "params":
+//                    Role paramsRole = roleRepository.findByName(RoleName.ROLE_PARAMS)
+//                    .orElseThrow(() -> new RuntimeException("Fail! -> Cause: PARAMS Role não encontrada."));
+//                    roles.add(paramsRole);
+//
+//                    break;
                 default:
                     Role userRole = roleRepository.findByName(RoleName.ROLE_USER)
                     .orElseThrow(() -> new RuntimeException("Fail! -> Cause: User Role não encontrada."));
@@ -138,9 +155,11 @@ public class AuthRestAPIs {
             }
         });
 
+        logger.info("######## ### User To Roles : " + roles);
         user.setRoles(roles);
         userRepository.save(user);
-
+        logger.info("######## ### Saved");
+        
         return ResponseEntity.ok().build();
     }
 }

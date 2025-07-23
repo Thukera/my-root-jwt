@@ -32,18 +32,9 @@ public class SignUpForm {
     @Size(min = 6, max = 40)
     private String password;
 
-    @NotBlank
-    @Size(min = 3, max = 50)
-    private Long agentId;
-
-    @NotBlank
+    @NotNull
     private Boolean status;
-
-    @NotBlank
-    @Size(min = 3, max = 50)
-    private String parceiro;
-
-    @NotBlank
+    
     private Long id;
 
     private Long codigoEmpresa;

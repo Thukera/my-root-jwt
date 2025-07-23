@@ -14,11 +14,13 @@ import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.JoinTable;
 import jakarta.persistence.ManyToMany;
+import jakarta.persistence.SequenceGenerator;
 import jakarta.persistence.Table;
 import jakarta.persistence.Transient;
 import jakarta.persistence.UniqueConstraint;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
 
 import lombok.Data;
@@ -41,7 +43,9 @@ import lombok.Data;
 @Data
 public class User{
 	@Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    //@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "user_seq")
+	@SequenceGenerator(name = "user_seq", sequenceName = "tb_users_id_seq", allocationSize = 1)
     private Long id;
 	
 	@NotBlank
@@ -67,12 +71,8 @@ public class User{
     @NotBlank
     @Size(min=6, max = 100)
     private String password;
-    
-    @NotBlank
-    @Size(min = 6, max = 50)
-    private Long agentId;
 
-    @NotBlank
+    @NotNull
     private Boolean status = false;
 
     @Transient
@@ -86,13 +86,12 @@ public class User{
 
     public User() {}
 
-    public User(String cpf, String name, String username, String email, String password, Long agentId, Boolean status) {
+    public User(String cpf, String name, String username, String email, String password, Boolean status) {
         this.cpf = cpf;
         this.name = name;
         this.username = username;
         this.email = email;
         this.password = password;
-        this.agentId = agentId;
         this.status = status;
     }
 }

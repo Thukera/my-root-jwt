@@ -22,6 +22,12 @@ http://{aplication-url}/swagger-ui/index.html
 -src/main/resources/config/log4j2.yml
 -dockerfile
 
+### Create Roles on Database
+INSERT INTO public.tb_roles (id, "name") 
+VALUES 
+	(1, 'ROLE_USER'),
+	(1, 'ROLE_ADMIN');
+
 
 Hope you enjoy!
 

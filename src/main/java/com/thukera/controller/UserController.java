@@ -18,9 +18,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.thukera.model.messages.NotFoundException;
+
 import com.thukera.model.forms.LoginForm;
 import com.thukera.model.forms.SignUpForm;
+import com.thukera.model.messages.NotFoundException;
 import com.thukera.model.entities.Role;
 import com.thukera.model.entities.User;
 import com.thukera.model.enums.RoleName;
@@ -69,17 +70,16 @@ public class UserController {
 
 	@PutMapping("/{userid}")
 	@PreAuthorize("hasRole('ADMIN') or hasRole('USER')")
-	public String updateUser(@PathVariable("userid") long userId, @RequestBody SignUpForm user) {
+	public String updateUser(@PathVariable("userid") String userid, @RequestBody SignUpForm user) {
 
 		try {
-			User usuario = userRepository.findByAgentId(userId);
+			User usuario = userRepository.getById(Long.parseLong(userid));
 
 			usuario.setCpf(user.getCpf());
 			usuario.setName(user.getName());
 			usuario.setUsername(user.getUsername());
 			usuario.setEmail(user.getEmail());
 			usuario.setPassword(encoder.encode(user.getPassword()));
-			usuario.setAgentId(user.getAgentId());
 			usuario.setStatus(user.getStatus());
 
 			Set<String> strRoles = user.getRole();
@@ -131,7 +131,7 @@ public class UserController {
 	}
 
 	@PutMapping("/forgotpassword")
-	// @PreAuthorize("hasRole('ADMIN') or hasRole('USER')")
+	@PreAuthorize("hasRole('ADMIN') or hasRole('USER')")
 	public String forgotPassword(@RequestBody SignUpForm user) {
 
 		User usuario = userRepository.findByEmail(user.getEmail());
@@ -154,7 +154,7 @@ public class UserController {
 		try {
 
 			User usuario = new User(user.getCpf(), user.getName(), user.getUsername(), user.getEmail(),
-					encoder.encode(user.getPassword()), user.getAgentId(), user.getStatus());
+					encoder.encode(user.getPassword()), user.getStatus());
 
 			usuario.setId(user.getId());
 

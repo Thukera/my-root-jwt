@@ -36,9 +36,15 @@ public class WebSecurityConfig {
     private UserDetailsService userDetailsService;
 
     private static final String[] AUTH_WHITELIST = {
-        "/v2/api-docs/**", "/swagger-resources", "/swagger-resources/**", "/configuration/**",
-        "/swagger-ui.html", "/webjars/**", "/v3/api-docs/**", "/swagger-ui/**",
-        "/api/auth/**","/api/test/**"
+    	"/swagger-resources/**",
+    	"/webjars/**",
+    	"/v3/api-docs/**",         // OpenAPI spec (JSON)
+    	"/swagger-ui/**",          // Swagger UI static files
+    	"/swagger-ui.html",        // Optional: direct HTML access (redirects to index.html)
+    	"/swagger-ui/index.html",
+        "/api/user/**",
+        "/api/auth/**",
+        "/api/test/**"
     };
 
     @Bean
@@ -81,7 +87,7 @@ public class WebSecurityConfig {
 
         return http.build();
     }
-
+    
     @Bean
     public CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration configuration = new CorsConfiguration();
