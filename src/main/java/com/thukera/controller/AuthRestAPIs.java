@@ -36,7 +36,11 @@ import com.thukera.security.jwt.JwtProvider;
 import jakarta.validation.Valid;
 
 
-@CrossOrigin(origins = "*", maxAge = 3600)
+@CrossOrigin(
+	    origins = "http://localhost:3000",
+	    allowCredentials = "true",  // make sure it's set if needed
+	    maxAge = 3600
+	)
 @RestController
 @RequestMapping("/api/auth")
 public class AuthRestAPIs {
@@ -87,7 +91,7 @@ public class AuthRestAPIs {
             usuario.get().setToken(token);
             usuario.get().setPassword("");
 
-            return ResponseEntity.ok(usuario);
+            return ResponseEntity.ok(usuario.get().getToken());
         }
         else {
             throw new InactiveException("Usuário inativo, contacte seu administrador!");

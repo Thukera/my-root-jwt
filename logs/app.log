@@ -3887,3 +3887,63 @@ java.lang.NullPointerException: Cannot invoke "String.toString()" because "jwt" 
 [INFO ] 2025-07-24 16:53:05.129 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
 [INFO ] 2025-07-24 16:53:05.130 [restartedMain] MyRootJwt - ######## ###  MY ROOT JWT APPLICATION STARTER  ### ########
 [INFO ] 2025-07-24 16:53:05.130 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-24 19:24:39.547 [restartedMain] MyRootJwt - Starting MyRootJwt using Java 21.0.4 with PID 23920 (C:\Users\nitro\Workspace\STS\my-root-jwt\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
+[DEBUG] 2025-07-24 19:24:39.559 [restartedMain] MyRootJwt - Running with Spring Boot v3.5.3, Spring v6.2.8
+[INFO ] 2025-07-24 19:24:39.559 [restartedMain] MyRootJwt - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 2025-07-24 19:24:43.832 [restartedMain] JwtAuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+[INFO ] 2025-07-24 19:24:44.884 [restartedMain] MyRootJwt - Started MyRootJwt in 5.974 seconds (process running for 15.129)
+[INFO ] 2025-07-24 19:24:44.887 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-24 19:24:44.887 [restartedMain] MyRootJwt - ######## ###  MY ROOT JWT APPLICATION STARTER  ### ########
+[INFO ] 2025-07-24 19:24:44.887 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-24 19:25:02.516 [http-nio-9090-exec-2] AuthRestAPIs - ######## ### ######## ###  SIGN IN  ### ######## ### ########
+[INFO ] 2025-07-24 19:28:32.912 [restartedMain] MyRootJwt - Starting MyRootJwt using Java 21.0.4 with PID 23920 (C:\Users\nitro\Workspace\STS\my-root-jwt\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
+[DEBUG] 2025-07-24 19:28:32.912 [restartedMain] MyRootJwt - Running with Spring Boot v3.5.3, Spring v6.2.8
+[INFO ] 2025-07-24 19:28:32.913 [restartedMain] MyRootJwt - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 2025-07-24 19:28:33.736 [restartedMain] JwtAuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+[INFO ] 2025-07-24 19:28:34.146 [restartedMain] MyRootJwt - Started MyRootJwt in 1.274 seconds (process running for 244.391)
+[INFO ] 2025-07-24 19:28:34.148 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-24 19:28:34.148 [restartedMain] MyRootJwt - ######## ###  MY ROOT JWT APPLICATION STARTER  ### ########
+[INFO ] 2025-07-24 19:28:34.148 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[ERROR] 2025-07-24 20:10:19.044 [http-nio-9090-exec-1] JwtAuthEntryPoint - Unauthorized error. Message - Full authentication is required to access this resource
+[ERROR] 2025-07-24 20:10:57.983 [http-nio-9090-exec-2] JwtAuthEntryPoint - Unauthorized error. Message - Full authentication is required to access this resource
+[INFO ] 2025-07-24 20:12:59.297 [restartedMain] MyRootJwt - Starting MyRootJwt using Java 21.0.4 with PID 23920 (C:\Users\nitro\Workspace\STS\my-root-jwt\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
+[DEBUG] 2025-07-24 20:12:59.298 [restartedMain] MyRootJwt - Running with Spring Boot v3.5.3, Spring v6.2.8
+[INFO ] 2025-07-24 20:12:59.298 [restartedMain] MyRootJwt - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 2025-07-24 20:13:00.111 [restartedMain] JwtAuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+[INFO ] 2025-07-24 20:13:00.592 [restartedMain] MyRootJwt - Started MyRootJwt in 1.342 seconds (process running for 2910.837)
+[INFO ] 2025-07-24 20:13:00.594 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-24 20:13:00.594 [restartedMain] MyRootJwt - ######## ###  MY ROOT JWT APPLICATION STARTER  ### ########
+[INFO ] 2025-07-24 20:13:00.594 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[ERROR] 2025-07-24 20:13:17.108 [http-nio-9090-exec-1] JwtAuthEntryPoint - Unauthorized error. Message - Full authentication is required to access this resource
+[INFO ] 2025-07-24 20:16:29.310 [restartedMain] MyRootJwt - Starting MyRootJwt using Java 21.0.4 with PID 23920 (C:\Users\nitro\Workspace\STS\my-root-jwt\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
+[DEBUG] 2025-07-24 20:16:29.310 [restartedMain] MyRootJwt - Running with Spring Boot v3.5.3, Spring v6.2.8
+[INFO ] 2025-07-24 20:16:29.311 [restartedMain] MyRootJwt - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 2025-07-24 20:16:30.064 [restartedMain] JwtAuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+[INFO ] 2025-07-24 20:16:30.537 [restartedMain] MyRootJwt - Started MyRootJwt in 1.264 seconds (process running for 3120.782)
+[INFO ] 2025-07-24 20:16:30.540 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-24 20:16:30.540 [restartedMain] MyRootJwt - ######## ###  MY ROOT JWT APPLICATION STARTER  ### ########
+[INFO ] 2025-07-24 20:16:30.540 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[ERROR] 2025-07-24 20:16:36.510 [http-nio-9090-exec-1] JwtAuthEntryPoint - Unauthorized error. Message - Full authentication is required to access this resource
+[ERROR] 2025-07-24 20:16:45.112 [http-nio-9090-exec-2] JwtAuthEntryPoint - Unauthorized error. Message - Full authentication is required to access this resource
+[INFO ] 2025-07-24 20:21:06.042 [restartedMain] MyRootJwt - Starting MyRootJwt using Java 21.0.4 with PID 30012 (C:\Users\nitro\Workspace\STS\my-root-jwt\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
+[DEBUG] 2025-07-24 20:21:06.054 [restartedMain] MyRootJwt - Running with Spring Boot v3.5.3, Spring v6.2.8
+[INFO ] 2025-07-24 20:21:06.055 [restartedMain] MyRootJwt - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 2025-07-24 20:21:10.261 [restartedMain] JwtAuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+[INFO ] 2025-07-24 20:21:11.328 [restartedMain] MyRootJwt - Started MyRootJwt in 5.931 seconds (process running for 7.174)
+[INFO ] 2025-07-24 20:21:11.332 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-24 20:21:11.332 [restartedMain] MyRootJwt - ######## ###  MY ROOT JWT APPLICATION STARTER  ### ########
+[INFO ] 2025-07-24 20:21:11.332 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[ERROR] 2025-07-24 20:21:17.156 [http-nio-9090-exec-2] JwtAuthEntryPoint - Unauthorized error. Message - Full authentication is required to access this resource
+[ERROR] 2025-07-24 20:21:17.169 [http-nio-9090-exec-2] JwtAuthEntryPoint - Unauthorized error. Message - Full authentication is required to access this resource
+[ERROR] 2025-07-24 20:21:32.473 [http-nio-9090-exec-4] JwtAuthEntryPoint - Unauthorized error. Message - Full authentication is required to access this resource
+[ERROR] 2025-07-24 20:21:32.475 [http-nio-9090-exec-4] JwtAuthEntryPoint - Unauthorized error. Message - Full authentication is required to access this resource
+[INFO ] 2025-07-24 20:22:00.482 [http-nio-9090-exec-6] AuthRestAPIs - ######## ### ######## ###  SIGN IN  ### ######## ### ########
+[ERROR] 2025-07-24 20:22:04.740 [http-nio-9090-exec-8] JwtAuthEntryPoint - Unauthorized error. Message - Full authentication is required to access this resource
+[ERROR] 2025-07-24 20:22:04.742 [http-nio-9090-exec-8] JwtAuthEntryPoint - Unauthorized error. Message - Full authentication is required to access this resource
+[ERROR] 2025-07-24 20:22:30.263 [http-nio-9090-exec-10] JwtAuthEntryPoint - Unauthorized error. Message - Full authentication is required to access this resource
+[ERROR] 2025-07-24 20:22:30.264 [http-nio-9090-exec-10] JwtAuthEntryPoint - Unauthorized error. Message - Full authentication is required to access this resource
+[ERROR] 2025-07-24 20:32:33.447 [http-nio-9090-exec-4] JwtAuthEntryPoint - Unauthorized error. Message - Full authentication is required to access this resource
+[ERROR] 2025-07-24 20:32:33.448 [http-nio-9090-exec-4] JwtAuthEntryPoint - Unauthorized error. Message - Full authentication is required to access this resource
+[ERROR] 2025-07-24 20:33:34.847 [http-nio-9090-exec-7] JwtAuthEntryPoint - Unauthorized error. Message - Full authentication is required to access this resource
+[ERROR] 2025-07-24 20:33:34.848 [http-nio-9090-exec-7] JwtAuthEntryPoint - Unauthorized error. Message - Full authentication is required to access this resource
+[ERROR] 2025-07-24 20:34:15.250 [http-nio-9090-exec-9] JwtAuthEntryPoint - Unauthorized error. Message - Full authentication is required to access this resource
