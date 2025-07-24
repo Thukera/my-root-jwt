@@ -3879,3 +3879,11 @@ java.lang.NullPointerException: Cannot invoke "String.toString()" because "jwt" 
 [INFO ] 2025-07-23 19:28:35.533 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
 [INFO ] 2025-07-23 19:28:35.533 [restartedMain] MyRootJwt - ######## ###  MY ROOT JWT APPLICATION STARTER  ### ########
 [INFO ] 2025-07-23 19:28:35.533 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-24 16:52:56.075 [restartedMain] MyRootJwt - Starting MyRootJwt using Java 21.0.4 with PID 27124 (C:\Users\nitro\Workspace\STS\my-root-jwt\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
+[DEBUG] 2025-07-24 16:52:56.095 [restartedMain] MyRootJwt - Running with Spring Boot v3.5.3, Spring v6.2.8
+[INFO ] 2025-07-24 16:52:56.096 [restartedMain] MyRootJwt - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 2025-07-24 16:53:03.977 [restartedMain] JwtAuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+[INFO ] 2025-07-24 16:53:05.124 [restartedMain] MyRootJwt - Started MyRootJwt in 9.707 seconds (process running for 11.025)
+[INFO ] 2025-07-24 16:53:05.129 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-24 16:53:05.130 [restartedMain] MyRootJwt - ######## ###  MY ROOT JWT APPLICATION STARTER  ### ########
+[INFO ] 2025-07-24 16:53:05.130 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########

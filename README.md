@@ -1,11 +1,18 @@
 # HEY! LISTEN! 
+
 ## It's dangerous to go alone! Take this!
 
 ## About the Project
-This is a core project that can be used with Ruge Solutions. 
+This is a core project that can be used with Huge Solutions. 
 It´s already with a JWT authentication build, that allows create a Auth Method with your Front-End Application with controlled sessions, or build a  Middleware that need to rotate Token frequently. 
-Token is encrypted with Private Key an Hashed to your external database. 
 Create and Manage Users and it´s roles.
+User will choose a password, that will be encrypted with your own Private Key, and Hashed512 to the database. 
+Sign user and generate a temporary tokens to access controlled services, with roles permissions. 
+Rotate temporary token with designed parameter. 
+Token is encrypted with your Private Key , and self-contained with Digital Signature for Backend Validation.  
+Self-Contained Token includes Role, User and Expiration Time. 
+Validation Occurs  each request, Spring doesn’t store anything — the token contains everything needed to trust the request (username, expiration, signature).
+It scales well, is secure, and avoids session bloat.
 
 ## Running Environment
 You must allow expose of endpoints on: com.thukera.security.WebSecurity.
@@ -21,6 +28,10 @@ http://{aplication-url}/swagger-ui/index.html
 -src/main/resources/application.properties
 -src/main/resources/config/log4j2.yml
 -dockerfile
+
+
+### Generate your own Private Key with 
+on bash : openssl rand -base64 64
 
 ### Create Roles on Database
 INSERT INTO public.tb_roles (id, "name") 
