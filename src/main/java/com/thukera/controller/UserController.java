@@ -1,11 +1,16 @@
 package com.thukera.controller;
 
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 import java.util.Set;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.security.crypto.password.PasswordEncoder;
@@ -17,7 +22,6 @@ import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
 
 import com.thukera.model.forms.LoginForm;
 import com.thukera.model.forms.SignUpForm;
@@ -34,6 +38,9 @@ import com.google.gson.Gson;
 @RestController
 @RequestMapping("/api/user")
 public class UserController {
+
+	private static final Logger logger = LogManager.getLogger(AuthRestAPIs.class);
+
 	@Autowired
 	UserRepository userRepository;
 
@@ -52,30 +59,69 @@ public class UserController {
 
 	@GetMapping("/")
 	@PreAuthorize("hasRole('ADMIN')")
-	public List<User> listar() {
-		return userRepository.findAll();
+	public ResponseEntity<?>  listar() {
+		
+		logger.debug("######## ### FIND ALL");
+		
+		try {
+			
+			return ResponseEntity.ok(userRepository.findAll());
+			
+		} catch (Exception e) {
+			logger.debug("## General Exception");
+			logger.error("### Exception : " + e.getClass());
+			logger.error("### Message : " + e.getMessage());
+			Map<String, String> body = new HashMap<>();
+			body.put("message", "Internal Server Error");
+			return new ResponseEntity<>(body, HttpStatus.INTERNAL_SERVER_ERROR);
+		}
+		
 	}
 
 	@GetMapping("/{id}")
 	@PreAuthorize("hasRole('USER') or hasRole('ADMIN')")
-	public Optional<User> findById(@PathVariable Long id) throws Exception {
-		Optional<User> response = userRepository.findById(id);
+	public ResponseEntity<?> findById(@PathVariable Long id) throws Exception {
 
-		if (!response.isPresent()) {
-			throw new NotFoundException("Recurso não encontrado");
-		} else {
-			return response;
+		logger.debug("######## ### FIND BY ID");
+
+		try {
+
+			Optional<User> response = userRepository.findById(id);
+
+			if (!response.isPresent()) {
+				throw new NotFoundException("Recurso não encontrado");
+			} else {
+				return ResponseEntity.ok(response.get());
+			}
+			
+		} catch (NotFoundException e) {
+			logger.debug("## NotFoundException Exception");
+			logger.error("### Exception : " + e.getClass());
+			logger.error("### Message : " + e.getMessage());
+			Map<String, String> body = new HashMap<>();
+			body.put("message", "Não encontrado");
+			return new ResponseEntity<>(body, HttpStatus.NOT_ACCEPTABLE);
+			
+		}  catch (Exception e) {
+			logger.debug("## General Exception");
+			logger.error("### Exception : " + e.getClass());
+			logger.error("### Message : " + e.getMessage());
+			Map<String, String> body = new HashMap<>();
+			body.put("message", "Internal Server Error");
+			return new ResponseEntity<>(body, HttpStatus.INTERNAL_SERVER_ERROR);
 		}
 	}
 
 	@PutMapping("/{userid}")
 	@PreAuthorize("hasRole('ADMIN') or hasRole('USER')")
-	public String updateUser(@PathVariable("userid") String userid, @RequestBody SignUpForm user) {
+	public ResponseEntity<?> updateUser(@PathVariable("userid") String userid, @RequestBody SignUpForm user) {
 
+		logger.debug("######## ### UPDATE USER BY ID");
+		
 		try {
 			User usuario = userRepository.getById(Long.parseLong(userid));
 
-			usuario.setCpf(user.getCpf());
+			usuario.setDoc(user.getDoc());
 			usuario.setName(user.getName());
 			usuario.setUsername(user.getUsername());
 			usuario.setEmail(user.getEmail());
@@ -108,17 +154,29 @@ public class UserController {
 
 			usuario.setRoles(roles);
 
+			
 			userRepository.save(usuario);
 
-			return gson.toJson("OK");
+			Map<String, String> body = new HashMap<>();
+			body.put("message", "Usuer Updated Sucessfuly");
+			return ResponseEntity.ok(body);
+			
 		} catch (Exception e) {
-			throw new NotFoundException("Recurso não encontrado: " + e);
+			logger.debug("## General Exception");
+			logger.error("### Exception : " + e.getClass());
+			logger.error("### Message : " + e.getMessage());
+			Map<String, String> body = new HashMap<>();
+			body.put("message", "Internal Server Error");
+			return new ResponseEntity<>(body, HttpStatus.INTERNAL_SERVER_ERROR);
 		}
 	}
 
 	@PutMapping("/changepassword")
 	@PreAuthorize("hasRole('ADMIN') or hasRole('USER')")
 	public String resetPassword(@RequestBody LoginForm user) {
+		
+		logger.debug("######## ### CHANGE PASSWORD");
+		
 
 		User usuario = userRepository.findByEmail(user.getUsername());
 		if (usuario == null) {
@@ -133,6 +191,8 @@ public class UserController {
 	@PutMapping("/forgotpassword")
 	@PreAuthorize("hasRole('ADMIN') or hasRole('USER')")
 	public String forgotPassword(@RequestBody SignUpForm user) {
+		
+		logger.debug("######## ### FORGOT PASSWORD");
 
 		User usuario = userRepository.findByEmail(user.getEmail());
 		if (usuario == null) {
@@ -149,11 +209,13 @@ public class UserController {
 
 	@PutMapping("/updateUser")
 	@PreAuthorize("hasRole('ADMIN')")
-	public ResponseEntity<String> updateUser(@RequestBody SignUpForm user) {
+	public ResponseEntity<?> updateUser(@RequestBody SignUpForm user) {
+		
+		logger.debug("######## ### UPDATE USER");
 
 		try {
 
-			User usuario = new User(user.getCpf(), user.getName(), user.getUsername(), user.getEmail(),
+			User usuario = new User(user.getDoc(), user.getName(), user.getUsername(), user.getEmail(),
 					encoder.encode(user.getPassword()), user.getStatus());
 
 			usuario.setId(user.getId());
@@ -180,16 +242,33 @@ public class UserController {
 	@DeleteMapping("/deleteUser/{id}")
 	@PreAuthorize("hasRole('ADMIN')")
 	public ResponseEntity<?> deleteUser(@PathVariable Long id) {
+		
+		logger.debug("######## ### DELETE USER BY ID");
 
 		try {
-
 			userRepository.deleteById(id);
+			
+			Map<String, String> body = new HashMap<>();
+			body.put("message", "User Deleted!");	
+			return ResponseEntity.ok(body);
 
+		} catch (NotFoundException e) {
+			logger.debug("## NotFoundException Exception");
+			logger.error("### Exception : " + e.getClass());
+			logger.error("### Message : " + e.getMessage());
+			Map<String, String> body = new HashMap<>();
+			body.put("message", "Não encontrado");
+			return new ResponseEntity<>(body, HttpStatus.NOT_ACCEPTABLE);
+			
 		} catch (Exception e) {
+			logger.debug("## General Exception");
+			logger.error("### Exception : " + e.getClass());
+			logger.error("### Message : " + e.getMessage());
+			Map<String, String> body = new HashMap<>();
+			body.put("message", "Error! User not deleted!");
 			return ResponseEntity.badRequest().body("Error! User not deleted!");
-
+			//return new ResponseEntity<>(body, HttpStatus.INTERNAL_SERVER_ERROR);
 		}
-		return ResponseEntity.ok().build();
 	}
 
 }

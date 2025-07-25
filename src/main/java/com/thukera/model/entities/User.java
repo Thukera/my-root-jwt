@@ -35,7 +35,7 @@ import lombok.Data;
             "email"
         }),
         @UniqueConstraint(columnNames = {
-            "cpf"
+            "doc"
         })
 })
 
@@ -51,7 +51,7 @@ public class User{
 	@NotBlank
 	@Size(min = 11, max = 15)
     @Column(unique = true)
-	private String cpf;
+	private String doc;
 
     @NotBlank
     @Size(min=3, max = 50)
@@ -86,8 +86,8 @@ public class User{
 
     public User() {}
 
-    public User(String cpf, String name, String username, String email, String password, Boolean status) {
-        this.cpf = cpf;
+    public User(String doc, String name, String username, String email, String password, Boolean status) {
+        this.doc = doc;
         this.name = name;
         this.username = username;
         this.email = email;

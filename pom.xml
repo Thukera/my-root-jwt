@@ -11,9 +11,9 @@
 	</parent>
 	
 	<groupId>com.thukera</groupId>
-	<artifactId>my-finances-bff</artifactId>
+	<artifactId>my-root</artifactId>
 	<version>1.0</version>
-	<name>my-finances-bff</name>
+	<name>my-root</name>
 	<description>Backend For Frontend Spring Application</description>
 	
 	<properties>

@@ -8,10 +8,12 @@ import lombok.Data;
 
 @Data
 public class SignUpForm {
+	
+	private Long id;
 
 	@NotBlank
     @Size(min = 11, max = 15)
-    private String cpf;
+    private String doc;
 
     @NotBlank
     @Size(min = 3, max = 50)
@@ -35,8 +37,7 @@ public class SignUpForm {
     @NotNull
     private Boolean status;
     
-    private Long id;
+    
 
-    private Long codigoEmpresa;
 
 }

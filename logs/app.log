@@ -3997,3 +3997,971 @@ java.lang.NullPointerException: Cannot invoke "String.toString()" because "jwt" 
 [INFO ] 2025-07-25 16:02:52.454 [restartedMain] MyRootJwt - Starting MyRootJwt using Java 21.0.4 with PID 44284 (C:\Users\nitro\Workspace\STS\my-root-jwt\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
 [DEBUG] 2025-07-25 16:02:52.455 [restartedMain] MyRootJwt - Running with Spring Boot v3.5.3, Spring v6.2.8
 [INFO ] 2025-07-25 16:02:52.455 [restartedMain] MyRootJwt - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2025-07-25 16:22:01.488 [restartedMain] MyRootJwt - Starting MyRootJwt using Java 21.0.4 with PID 38536 (C:\Users\nitro\Workspace\STS\my-root-jwt\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
+[DEBUG] 2025-07-25 16:22:01.503 [restartedMain] MyRootJwt - Running with Spring Boot v3.5.3, Spring v6.2.8
+[INFO ] 2025-07-25 16:22:01.504 [restartedMain] MyRootJwt - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 2025-07-25 16:22:05.816 [restartedMain] JwtAuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+[INFO ] 2025-07-25 16:22:06.907 [restartedMain] MyRootJwt - Started MyRootJwt in 6.04 seconds (process running for 15.036)
+[INFO ] 2025-07-25 16:22:06.911 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 16:22:06.911 [restartedMain] MyRootJwt - ######## ###  MY ROOT JWT APPLICATION STARTER  ### ########
+[INFO ] 2025-07-25 16:22:06.911 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 16:28:12.135 [restartedMain] MyRootJwt - Starting MyRootJwt using Java 21.0.4 with PID 44148 (C:\Users\nitro\Workspace\STS\my-root-jwt\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
+[DEBUG] 2025-07-25 16:28:12.146 [restartedMain] MyRootJwt - Running with Spring Boot v3.5.3, Spring v6.2.8
+[INFO ] 2025-07-25 16:28:12.148 [restartedMain] MyRootJwt - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 2025-07-25 16:28:16.402 [restartedMain] JwtAuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+[INFO ] 2025-07-25 16:28:17.458 [restartedMain] MyRootJwt - Started MyRootJwt in 5.987 seconds (process running for 7.241)
+[INFO ] 2025-07-25 16:28:17.462 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 16:28:17.462 [restartedMain] MyRootJwt - ######## ###  MY ROOT JWT APPLICATION STARTER  ### ########
+[INFO ] 2025-07-25 16:28:17.462 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[ERROR] 2025-07-25 16:28:20.896 [http-nio-9090-exec-1] AuthRestAPIs - ### GLOBAL EXCEPTION HANDLER 
+[ERROR] 2025-07-25 16:28:20.897 [http-nio-9090-exec-1] AuthRestAPIs - ### Exception : Access Denied
+[ERROR] 2025-07-25 16:28:20.897 [http-nio-9090-exec-1] AuthRestAPIs - ### Message : Access Denied
+[INFO ] 2025-07-25 16:28:44.585 [restartedMain] MyRootJwt - Starting MyRootJwt using Java 21.0.4 with PID 44148 (C:\Users\nitro\Workspace\STS\my-root-jwt\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
+[DEBUG] 2025-07-25 16:28:44.585 [restartedMain] MyRootJwt - Running with Spring Boot v3.5.3, Spring v6.2.8
+[INFO ] 2025-07-25 16:28:44.585 [restartedMain] MyRootJwt - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 2025-07-25 16:28:45.372 [restartedMain] JwtAuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+[INFO ] 2025-07-25 16:28:45.809 [restartedMain] MyRootJwt - Started MyRootJwt in 1.266 seconds (process running for 35.591)
+[INFO ] 2025-07-25 16:28:45.811 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 16:28:45.811 [restartedMain] MyRootJwt - ######## ###  MY ROOT JWT APPLICATION STARTER  ### ########
+[INFO ] 2025-07-25 16:28:45.812 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[ERROR] 2025-07-25 16:28:55.741 [http-nio-9090-exec-2] AuthRestAPIs - ### GLOBAL EXCEPTION HANDLER 
+[ERROR] 2025-07-25 16:28:55.741 [http-nio-9090-exec-2] AuthRestAPIs - ### Exception : Access Denied
+[ERROR] 2025-07-25 16:28:55.741 [http-nio-9090-exec-2] AuthRestAPIs - ### Message : Access Denied
+[INFO ] 2025-07-25 16:29:18.088 [restartedMain] MyRootJwt - Starting MyRootJwt using Java 21.0.4 with PID 44148 (C:\Users\nitro\Workspace\STS\my-root-jwt\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
+[DEBUG] 2025-07-25 16:29:18.089 [restartedMain] MyRootJwt - Running with Spring Boot v3.5.3, Spring v6.2.8
+[INFO ] 2025-07-25 16:29:18.089 [restartedMain] MyRootJwt - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 2025-07-25 16:29:18.850 [restartedMain] JwtAuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+[INFO ] 2025-07-25 16:29:19.344 [restartedMain] MyRootJwt - Started MyRootJwt in 1.296 seconds (process running for 69.125)
+[INFO ] 2025-07-25 16:29:19.345 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 16:29:19.345 [restartedMain] MyRootJwt - ######## ###  MY ROOT JWT APPLICATION STARTER  ### ########
+[INFO ] 2025-07-25 16:29:19.345 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[ERROR] 2025-07-25 16:29:20.602 [http-nio-9090-exec-2] AuthRestAPIs - ### GLOBAL EXCEPTION HANDLER 
+[ERROR] 2025-07-25 16:29:20.603 [http-nio-9090-exec-2] AuthRestAPIs - ### Exception : org.springframework.security.authorization.AuthorizationDeniedException: Access Denied
+[ERROR] 2025-07-25 16:29:20.603 [http-nio-9090-exec-2] AuthRestAPIs - ### Message : Access Denied
+[INFO ] 2025-07-25 16:29:44.489 [restartedMain] MyRootJwt - Starting MyRootJwt using Java 21.0.4 with PID 44148 (C:\Users\nitro\Workspace\STS\my-root-jwt\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
+[DEBUG] 2025-07-25 16:29:44.489 [restartedMain] MyRootJwt - Running with Spring Boot v3.5.3, Spring v6.2.8
+[INFO ] 2025-07-25 16:29:44.489 [restartedMain] MyRootJwt - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 2025-07-25 16:29:45.247 [restartedMain] JwtAuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+[INFO ] 2025-07-25 16:29:45.694 [restartedMain] MyRootJwt - Started MyRootJwt in 1.242 seconds (process running for 95.476)
+[INFO ] 2025-07-25 16:29:45.696 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 16:29:45.696 [restartedMain] MyRootJwt - ######## ###  MY ROOT JWT APPLICATION STARTER  ### ########
+[INFO ] 2025-07-25 16:29:45.696 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[ERROR] 2025-07-25 16:29:45.726 [http-nio-9090-exec-2] AuthRestAPIs - ### GLOBAL EXCEPTION HANDLER 
+[ERROR] 2025-07-25 16:29:45.726 [http-nio-9090-exec-2] AuthRestAPIs - ### Exception : class org.springframework.security.authorization.AuthorizationDeniedException
+[ERROR] 2025-07-25 16:29:45.726 [http-nio-9090-exec-2] AuthRestAPIs - ### Message : Access Denied
+[INFO ] 2025-07-25 16:30:20.021 [restartedMain] MyRootJwt - Starting MyRootJwt using Java 21.0.4 with PID 44148 (C:\Users\nitro\Workspace\STS\my-root-jwt\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
+[DEBUG] 2025-07-25 16:30:20.021 [restartedMain] MyRootJwt - Running with Spring Boot v3.5.3, Spring v6.2.8
+[INFO ] 2025-07-25 16:30:20.021 [restartedMain] MyRootJwt - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 2025-07-25 16:30:20.866 [restartedMain] JwtAuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+[INFO ] 2025-07-25 16:30:21.244 [restartedMain] MyRootJwt - Started MyRootJwt in 1.258 seconds (process running for 131.025)
+[INFO ] 2025-07-25 16:30:21.245 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 16:30:21.245 [restartedMain] MyRootJwt - ######## ###  MY ROOT JWT APPLICATION STARTER  ### ########
+[INFO ] 2025-07-25 16:30:21.245 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 16:31:42.828 [restartedMain] MyRootJwt - Starting MyRootJwt using Java 21.0.4 with PID 44148 (C:\Users\nitro\Workspace\STS\my-root-jwt\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
+[DEBUG] 2025-07-25 16:31:42.829 [restartedMain] MyRootJwt - Running with Spring Boot v3.5.3, Spring v6.2.8
+[INFO ] 2025-07-25 16:31:42.829 [restartedMain] MyRootJwt - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 2025-07-25 16:31:43.556 [restartedMain] JwtAuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+[INFO ] 2025-07-25 16:31:43.994 [restartedMain] MyRootJwt - Started MyRootJwt in 1.204 seconds (process running for 213.776)
+[INFO ] 2025-07-25 16:31:43.998 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 16:31:43.998 [restartedMain] MyRootJwt - ######## ###  MY ROOT JWT APPLICATION STARTER  ### ########
+[INFO ] 2025-07-25 16:31:43.998 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[ERROR] 2025-07-25 16:31:48.244 [http-nio-9090-exec-2] JwtAuthEntryPoint - Unauthorized error. Message - Full authentication is required to access this resource
+[ERROR] 2025-07-25 16:31:48.251 [http-nio-9090-exec-2] JwtAuthEntryPoint - Unauthorized error. Message - Full authentication is required to access this resource
+[INFO ] 2025-07-25 16:32:57.314 [restartedMain] MyRootJwt - Starting MyRootJwt using Java 21.0.4 with PID 44148 (C:\Users\nitro\Workspace\STS\my-root-jwt\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
+[DEBUG] 2025-07-25 16:32:57.314 [restartedMain] MyRootJwt - Running with Spring Boot v3.5.3, Spring v6.2.8
+[INFO ] 2025-07-25 16:32:57.314 [restartedMain] MyRootJwt - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 2025-07-25 16:32:58.063 [restartedMain] JwtAuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+[INFO ] 2025-07-25 16:32:58.479 [restartedMain] MyRootJwt - Started MyRootJwt in 1.196 seconds (process running for 288.26)
+[INFO ] 2025-07-25 16:32:58.480 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 16:32:58.480 [restartedMain] MyRootJwt - ######## ###  MY ROOT JWT APPLICATION STARTER  ### ########
+[INFO ] 2025-07-25 16:32:58.480 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[ERROR] 2025-07-25 16:33:04.500 [http-nio-9090-exec-2] JwtAuthEntryPoint - Unauthorized error. Message - Full authentication is required to access this resource
+[ERROR] 2025-07-25 16:33:04.502 [http-nio-9090-exec-2] JwtAuthEntryPoint - Unauthorized error. Message - Full authentication is required to access this resource
+[ERROR] 2025-07-25 16:33:05.944 [http-nio-9090-exec-3] JwtAuthEntryPoint - Unauthorized error. Message - Full authentication is required to access this resource
+[ERROR] 2025-07-25 16:33:05.944 [http-nio-9090-exec-3] JwtAuthEntryPoint - Unauthorized error. Message - Full authentication is required to access this resource
+[INFO ] 2025-07-25 16:33:29.561 [restartedMain] MyRootJwt - Starting MyRootJwt using Java 21.0.4 with PID 40844 (C:\Users\nitro\Workspace\STS\my-root-jwt\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
+[DEBUG] 2025-07-25 16:33:29.569 [restartedMain] MyRootJwt - Running with Spring Boot v3.5.3, Spring v6.2.8
+[INFO ] 2025-07-25 16:33:29.570 [restartedMain] MyRootJwt - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 2025-07-25 16:33:33.904 [restartedMain] JwtAuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+[INFO ] 2025-07-25 16:33:34.992 [restartedMain] MyRootJwt - Started MyRootJwt in 6.056 seconds (process running for 7.283)
+[INFO ] 2025-07-25 16:33:34.996 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 16:33:34.996 [restartedMain] MyRootJwt - ######## ###  MY ROOT JWT APPLICATION STARTER  ### ########
+[INFO ] 2025-07-25 16:33:34.997 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[ERROR] 2025-07-25 16:33:35.750 [http-nio-9090-exec-1] JwtAuthEntryPoint - Unauthorized error. Message - Full authentication is required to access this resource
+[ERROR] 2025-07-25 16:33:35.758 [http-nio-9090-exec-1] JwtAuthEntryPoint - Unauthorized error. Message - Full authentication is required to access this resource
+[ERROR] 2025-07-25 16:33:58.434 [http-nio-9090-exec-5] JwtAuthEntryPoint - Unauthorized error. Message - Full authentication is required to access this resource
+[ERROR] 2025-07-25 16:33:58.435 [http-nio-9090-exec-5] JwtAuthEntryPoint - Unauthorized error. Message - Full authentication is required to access this resource
+[INFO ] 2025-07-25 16:35:42.138 [restartedMain] MyRootJwt - Starting MyRootJwt using Java 21.0.4 with PID 40844 (C:\Users\nitro\Workspace\STS\my-root-jwt\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
+[DEBUG] 2025-07-25 16:35:42.138 [restartedMain] MyRootJwt - Running with Spring Boot v3.5.3, Spring v6.2.8
+[INFO ] 2025-07-25 16:35:42.138 [restartedMain] MyRootJwt - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 2025-07-25 16:35:42.934 [restartedMain] JwtAuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+[INFO ] 2025-07-25 16:35:43.362 [restartedMain] MyRootJwt - Started MyRootJwt in 1.265 seconds (process running for 135.653)
+[INFO ] 2025-07-25 16:35:43.365 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 16:35:43.365 [restartedMain] MyRootJwt - ######## ###  MY ROOT JWT APPLICATION STARTER  ### ########
+[INFO ] 2025-07-25 16:35:43.365 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 16:36:33.463 [main] MyRootJwtTests - Starting MyRootJwtTests using Java 21.0.4 with PID 43532 (started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
+[DEBUG] 2025-07-25 16:36:33.477 [main] MyRootJwtTests - Running with Spring Boot v3.5.3, Spring v6.2.8
+[INFO ] 2025-07-25 16:36:33.478 [main] MyRootJwtTests - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2025-07-25 16:36:41.436 [main] MyRootJwtTests - Started MyRootJwtTests in 8.667 seconds (process running for 10.618)
+[INFO ] 2025-07-25 16:36:56.608 [restartedMain] MyRootJwt - Starting MyRootJwt using Java 21.0.4 with PID 16232 (C:\Users\nitro\Workspace\STS\my-root-jwt\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
+[DEBUG] 2025-07-25 16:36:56.620 [restartedMain] MyRootJwt - Running with Spring Boot v3.5.3, Spring v6.2.8
+[INFO ] 2025-07-25 16:36:56.620 [restartedMain] MyRootJwt - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 2025-07-25 16:37:00.895 [restartedMain] JwtAuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+[INFO ] 2025-07-25 16:37:01.991 [restartedMain] MyRootJwt - Started MyRootJwt in 6.053 seconds (process running for 7.332)
+[INFO ] 2025-07-25 16:37:01.994 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 16:37:01.995 [restartedMain] MyRootJwt - ######## ###  MY ROOT JWT APPLICATION STARTER  ### ########
+[INFO ] 2025-07-25 16:37:01.995 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 16:38:58.308 [restartedMain] MyRootJwt - Starting MyRootJwt using Java 21.0.4 with PID 16232 (C:\Users\nitro\Workspace\STS\my-root-jwt\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
+[DEBUG] 2025-07-25 16:38:58.308 [restartedMain] MyRootJwt - Running with Spring Boot v3.5.3, Spring v6.2.8
+[INFO ] 2025-07-25 16:38:58.308 [restartedMain] MyRootJwt - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2025-07-25 16:53:16.498 [restartedMain] MyRootJwt - Starting MyRootJwt using Java 21.0.4 with PID 1804 (C:\Users\nitro\Workspace\STS\my-root-jwt\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
+[DEBUG] 2025-07-25 16:53:16.510 [restartedMain] MyRootJwt - Running with Spring Boot v3.5.3, Spring v6.2.8
+[INFO ] 2025-07-25 16:53:16.510 [restartedMain] MyRootJwt - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2025-07-25 17:02:09.593 [restartedMain] MyRootJwt - Starting MyRootJwt using Java 21.0.4 with PID 44516 (C:\Users\nitro\Workspace\STS\my-root-jwt\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
+[DEBUG] 2025-07-25 17:02:09.603 [restartedMain] MyRootJwt - Running with Spring Boot v3.5.3, Spring v6.2.8
+[INFO ] 2025-07-25 17:02:09.603 [restartedMain] MyRootJwt - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 2025-07-25 17:02:15.672 [restartedMain] JwtAuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+[INFO ] 2025-07-25 17:02:16.741 [restartedMain] MyRootJwt - Started MyRootJwt in 7.792 seconds (process running for 9.039)
+[INFO ] 2025-07-25 17:02:16.744 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 17:02:16.744 [restartedMain] MyRootJwt - ######## ###  MY ROOT JWT APPLICATION STARTER  ### ########
+[INFO ] 2025-07-25 17:02:16.744 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[DEBUG] 2025-07-25 17:02:24.914 [http-nio-9090-exec-1] JwtAuthTokenFilter - Can NOT set user authentication -> Message: {}
+org.springframework.dao.InvalidDataAccessResourceUsageException: JDBC exception executing SQL [select u1_0.id,u1_0.doc,u1_0.email,u1_0.name,u1_0.password,u1_0.status,u1_0.username from tb_users u1_0 where u1_0.username=?] [ERROR: column u1_0.doc does not exist
+  Position: 16] [n/a]; SQL [n/a]
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:281) ~[spring-orm-6.2.8.jar:6.2.8]
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:256) ~[spring-orm-6.2.8.jar:6.2.8]
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:241) ~[spring-orm-6.2.8.jar:6.2.8]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:560) ~[spring-orm-6.2.8.jar:6.2.8]
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61) ~[spring-tx-6.2.8.jar:6.2.8]
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:343) ~[spring-tx-6.2.8.jar:6.2.8]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:160) ~[spring-tx-6.2.8.jar:6.2.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.8.jar:6.2.8]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:136) ~[spring-data-jpa-3.5.1.jar:3.5.1]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.8.jar:6.2.8]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223) ~[spring-aop-6.2.8.jar:6.2.8]
+	at jdk.proxy4/jdk.proxy4.$Proxy162.findByUsername(Unknown Source) ~[?:?]
+	at com.thukera.security.service.UserDetailsServiceImpl.loadUserByUsername(UserDetailsServiceImpl.java:26) ~[classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359) ~[spring-aop-6.2.8.jar:6.2.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.2.8.jar:6.2.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.2.8.jar:6.2.8]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380) ~[spring-tx-6.2.8.jar:6.2.8]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-6.2.8.jar:6.2.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.8.jar:6.2.8]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728) ~[spring-aop-6.2.8.jar:6.2.8]
+	at com.thukera.security.service.UserDetailsServiceImpl$$SpringCGLIB$$0.loadUserByUsername(<generated>) ~[classes/:?]
+	at com.thukera.security.jwt.JwtAuthTokenFilter.doFilterInternal(JwtAuthTokenFilter.java:44) ~[classes/:?]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.1.jar:6.5.1]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.5.1.jar:6.5.1]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.5.1.jar:6.5.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.1.jar:6.5.1]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.1.jar:6.5.1]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-6.5.1.jar:6.5.1]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-6.5.1.jar:6.5.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.1.jar:6.5.1]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.5.1.jar:6.5.1]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.5.1.jar:6.5.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.1.jar:6.5.1]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-6.5.1.jar:6.5.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.1.jar:6.5.1]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-6.5.1.jar:6.5.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.1.jar:6.5.1]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.5.1.jar:6.5.1]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.5.1.jar:6.5.1]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.web.filter.ServletRequestPathFilter.doFilter(ServletRequestPathFilter.java:52) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebSecurityConfiguration.java:319) ~[spring-security-config-6.5.1.jar:6.5.1]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$4(HandlerMappingIntrospector.java:267) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:240) ~[spring-security-config-6.5.1.jar:6.5.1]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: org.hibernate.exception.SQLGrammarException: JDBC exception executing SQL [select u1_0.id,u1_0.doc,u1_0.email,u1_0.name,u1_0.password,u1_0.status,u1_0.username from tb_users u1_0 where u1_0.username=?] [ERROR: column u1_0.doc does not exist
+  Position: 16] [n/a]
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:91) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:94) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.executeQuery(DeferredResultSetAccess.java:269) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.getResultSet(DeferredResultSetAccess.java:172) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.sql.results.jdbc.internal.JdbcValuesResultSetImpl.<init>(JdbcValuesResultSetImpl.java:74) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.resolveJdbcValuesSource(JdbcSelectExecutorStandardImpl.java:355) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcSelectExecutorStandardImpl.java:137) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.executeQuery(JdbcSelectExecutorStandardImpl.java:102) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.executeQuery(JdbcSelectExecutor.java:91) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.list(JdbcSelectExecutor.java:165) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.lambda$new$1(ConcreteSqmSelectQueryPlan.java:152) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.withCacheableSqmInterpretation(ConcreteSqmSelectQueryPlan.java:442) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.performList(ConcreteSqmSelectQueryPlan.java:362) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.query.sqm.internal.QuerySqmImpl.doList(QuerySqmImpl.java:380) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.query.spi.AbstractSelectionQuery.list(AbstractSelectionQuery.java:143) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.query.spi.AbstractSelectionQuery.getSingleResult(AbstractSelectionQuery.java:275) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$SingleEntityExecution.doExecute(JpaQueryExecution.java:224) ~[spring-data-jpa-3.5.1.jar:3.5.1]
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:93) ~[spring-data-jpa-3.5.1.jar:3.5.1]
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:160) ~[spring-data-jpa-3.5.1.jar:3.5.1]
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:148) ~[spring-data-jpa-3.5.1.jar:3.5.1]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170) ~[spring-data-commons-3.5.1.jar:3.5.1]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158) ~[spring-data-commons-3.5.1.jar:3.5.1]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:170) ~[spring-data-commons-3.5.1.jar:3.5.1]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:149) ~[spring-data-commons-3.5.1.jar:3.5.1]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.8.jar:6.2.8]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:69) ~[spring-data-commons-3.5.1.jar:3.5.1]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.8.jar:6.2.8]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380) ~[spring-tx-6.2.8.jar:6.2.8]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-6.2.8.jar:6.2.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.8.jar:6.2.8]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:138) ~[spring-tx-6.2.8.jar:6.2.8]
+	... 82 more
+Caused by: org.postgresql.util.PSQLException: ERROR: column u1_0.doc does not exist
+  Position: 16
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2734) ~[postgresql-42.7.7.jar:42.7.7]
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2421) ~[postgresql-42.7.7.jar:42.7.7]
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:372) ~[postgresql-42.7.7.jar:42.7.7]
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:518) ~[postgresql-42.7.7.jar:42.7.7]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:435) ~[postgresql-42.7.7.jar:42.7.7]
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:196) ~[postgresql-42.7.7.jar:42.7.7]
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:139) ~[postgresql-42.7.7.jar:42.7.7]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) ~[HikariCP-6.3.0.jar:?]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java) ~[HikariCP-6.3.0.jar:?]
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.executeQuery(DeferredResultSetAccess.java:251) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.getResultSet(DeferredResultSetAccess.java:172) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.sql.results.jdbc.internal.JdbcValuesResultSetImpl.<init>(JdbcValuesResultSetImpl.java:74) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.resolveJdbcValuesSource(JdbcSelectExecutorStandardImpl.java:355) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcSelectExecutorStandardImpl.java:137) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.executeQuery(JdbcSelectExecutorStandardImpl.java:102) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.executeQuery(JdbcSelectExecutor.java:91) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.list(JdbcSelectExecutor.java:165) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.lambda$new$1(ConcreteSqmSelectQueryPlan.java:152) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.withCacheableSqmInterpretation(ConcreteSqmSelectQueryPlan.java:442) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.performList(ConcreteSqmSelectQueryPlan.java:362) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.query.sqm.internal.QuerySqmImpl.doList(QuerySqmImpl.java:380) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.query.spi.AbstractSelectionQuery.list(AbstractSelectionQuery.java:143) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.query.spi.AbstractSelectionQuery.getSingleResult(AbstractSelectionQuery.java:275) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$SingleEntityExecution.doExecute(JpaQueryExecution.java:224) ~[spring-data-jpa-3.5.1.jar:3.5.1]
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:93) ~[spring-data-jpa-3.5.1.jar:3.5.1]
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:160) ~[spring-data-jpa-3.5.1.jar:3.5.1]
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:148) ~[spring-data-jpa-3.5.1.jar:3.5.1]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170) ~[spring-data-commons-3.5.1.jar:3.5.1]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158) ~[spring-data-commons-3.5.1.jar:3.5.1]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:170) ~[spring-data-commons-3.5.1.jar:3.5.1]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:149) ~[spring-data-commons-3.5.1.jar:3.5.1]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.8.jar:6.2.8]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:69) ~[spring-data-commons-3.5.1.jar:3.5.1]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.8.jar:6.2.8]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380) ~[spring-tx-6.2.8.jar:6.2.8]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-6.2.8.jar:6.2.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.8.jar:6.2.8]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:138) ~[spring-tx-6.2.8.jar:6.2.8]
+	... 82 more
+[ERROR] 2025-07-25 17:02:25.067 [http-nio-9090-exec-1] AuthRestAPIs - ### GLOBAL EXCEPTION HANDLER 
+[ERROR] 2025-07-25 17:02:25.067 [http-nio-9090-exec-1] AuthRestAPIs - ### Exception : class org.springframework.web.bind.MethodArgumentNotValidException
+[ERROR] 2025-07-25 17:02:25.068 [http-nio-9090-exec-1] AuthRestAPIs - ### Message : Validation failed for argument [0] in public org.springframework.http.ResponseEntity<?> com.thukera.controller.AuthRestAPIs.registerUser(com.thukera.model.forms.SignUpForm): [Field error in object 'signUpForm' on field 'doc': rejected value [null]; codes [NotBlank.signUpForm.doc,NotBlank.doc,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [signUpForm.doc,doc]; arguments []; default message [doc]]; default message [must not be blank]] 
+[DEBUG] 2025-07-25 17:02:39.378 [http-nio-9090-exec-4] JwtAuthTokenFilter - Can NOT set user authentication -> Message: {}
+org.springframework.dao.InvalidDataAccessResourceUsageException: JDBC exception executing SQL [select u1_0.id,u1_0.doc,u1_0.email,u1_0.name,u1_0.password,u1_0.status,u1_0.username from tb_users u1_0 where u1_0.username=?] [ERROR: column u1_0.doc does not exist
+  Position: 16] [n/a]; SQL [n/a]
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:281) ~[spring-orm-6.2.8.jar:6.2.8]
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:256) ~[spring-orm-6.2.8.jar:6.2.8]
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:241) ~[spring-orm-6.2.8.jar:6.2.8]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:560) ~[spring-orm-6.2.8.jar:6.2.8]
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61) ~[spring-tx-6.2.8.jar:6.2.8]
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:343) ~[spring-tx-6.2.8.jar:6.2.8]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:160) ~[spring-tx-6.2.8.jar:6.2.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.8.jar:6.2.8]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:136) ~[spring-data-jpa-3.5.1.jar:3.5.1]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.8.jar:6.2.8]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223) ~[spring-aop-6.2.8.jar:6.2.8]
+	at jdk.proxy4/jdk.proxy4.$Proxy162.findByUsername(Unknown Source) ~[?:?]
+	at com.thukera.security.service.UserDetailsServiceImpl.loadUserByUsername(UserDetailsServiceImpl.java:26) ~[classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359) ~[spring-aop-6.2.8.jar:6.2.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.2.8.jar:6.2.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.2.8.jar:6.2.8]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380) ~[spring-tx-6.2.8.jar:6.2.8]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-6.2.8.jar:6.2.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.8.jar:6.2.8]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728) ~[spring-aop-6.2.8.jar:6.2.8]
+	at com.thukera.security.service.UserDetailsServiceImpl$$SpringCGLIB$$0.loadUserByUsername(<generated>) ~[classes/:?]
+	at com.thukera.security.jwt.JwtAuthTokenFilter.doFilterInternal(JwtAuthTokenFilter.java:44) ~[classes/:?]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.1.jar:6.5.1]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.5.1.jar:6.5.1]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.5.1.jar:6.5.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.1.jar:6.5.1]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.1.jar:6.5.1]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-6.5.1.jar:6.5.1]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-6.5.1.jar:6.5.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.1.jar:6.5.1]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.5.1.jar:6.5.1]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.5.1.jar:6.5.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.1.jar:6.5.1]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-6.5.1.jar:6.5.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.1.jar:6.5.1]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-6.5.1.jar:6.5.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.1.jar:6.5.1]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.5.1.jar:6.5.1]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.5.1.jar:6.5.1]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.web.filter.ServletRequestPathFilter.doFilter(ServletRequestPathFilter.java:52) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebSecurityConfiguration.java:319) ~[spring-security-config-6.5.1.jar:6.5.1]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$4(HandlerMappingIntrospector.java:267) ~[spring-webmvc-6.2.8.jar:6.2.8]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:240) ~[spring-security-config-6.5.1.jar:6.5.1]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.8.jar:6.2.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.42.jar:10.1.42]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: org.hibernate.exception.SQLGrammarException: JDBC exception executing SQL [select u1_0.id,u1_0.doc,u1_0.email,u1_0.name,u1_0.password,u1_0.status,u1_0.username from tb_users u1_0 where u1_0.username=?] [ERROR: column u1_0.doc does not exist
+  Position: 16] [n/a]
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:91) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:94) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.executeQuery(DeferredResultSetAccess.java:269) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.getResultSet(DeferredResultSetAccess.java:172) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.sql.results.jdbc.internal.JdbcValuesResultSetImpl.<init>(JdbcValuesResultSetImpl.java:74) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.resolveJdbcValuesSource(JdbcSelectExecutorStandardImpl.java:355) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcSelectExecutorStandardImpl.java:137) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.executeQuery(JdbcSelectExecutorStandardImpl.java:102) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.executeQuery(JdbcSelectExecutor.java:91) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.list(JdbcSelectExecutor.java:165) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.lambda$new$1(ConcreteSqmSelectQueryPlan.java:152) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.withCacheableSqmInterpretation(ConcreteSqmSelectQueryPlan.java:442) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.performList(ConcreteSqmSelectQueryPlan.java:362) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.query.sqm.internal.QuerySqmImpl.doList(QuerySqmImpl.java:380) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.query.spi.AbstractSelectionQuery.list(AbstractSelectionQuery.java:143) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.query.spi.AbstractSelectionQuery.getSingleResult(AbstractSelectionQuery.java:275) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$SingleEntityExecution.doExecute(JpaQueryExecution.java:224) ~[spring-data-jpa-3.5.1.jar:3.5.1]
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:93) ~[spring-data-jpa-3.5.1.jar:3.5.1]
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:160) ~[spring-data-jpa-3.5.1.jar:3.5.1]
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:148) ~[spring-data-jpa-3.5.1.jar:3.5.1]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170) ~[spring-data-commons-3.5.1.jar:3.5.1]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158) ~[spring-data-commons-3.5.1.jar:3.5.1]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:170) ~[spring-data-commons-3.5.1.jar:3.5.1]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:149) ~[spring-data-commons-3.5.1.jar:3.5.1]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.8.jar:6.2.8]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:69) ~[spring-data-commons-3.5.1.jar:3.5.1]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.8.jar:6.2.8]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380) ~[spring-tx-6.2.8.jar:6.2.8]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-6.2.8.jar:6.2.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.8.jar:6.2.8]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:138) ~[spring-tx-6.2.8.jar:6.2.8]
+	... 82 more
+Caused by: org.postgresql.util.PSQLException: ERROR: column u1_0.doc does not exist
+  Position: 16
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2734) ~[postgresql-42.7.7.jar:42.7.7]
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2421) ~[postgresql-42.7.7.jar:42.7.7]
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:372) ~[postgresql-42.7.7.jar:42.7.7]
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:518) ~[postgresql-42.7.7.jar:42.7.7]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:435) ~[postgresql-42.7.7.jar:42.7.7]
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:196) ~[postgresql-42.7.7.jar:42.7.7]
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:139) ~[postgresql-42.7.7.jar:42.7.7]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) ~[HikariCP-6.3.0.jar:?]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java) ~[HikariCP-6.3.0.jar:?]
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.executeQuery(DeferredResultSetAccess.java:251) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.getResultSet(DeferredResultSetAccess.java:172) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.sql.results.jdbc.internal.JdbcValuesResultSetImpl.<init>(JdbcValuesResultSetImpl.java:74) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.resolveJdbcValuesSource(JdbcSelectExecutorStandardImpl.java:355) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcSelectExecutorStandardImpl.java:137) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.executeQuery(JdbcSelectExecutorStandardImpl.java:102) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.executeQuery(JdbcSelectExecutor.java:91) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.list(JdbcSelectExecutor.java:165) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.lambda$new$1(ConcreteSqmSelectQueryPlan.java:152) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.withCacheableSqmInterpretation(ConcreteSqmSelectQueryPlan.java:442) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.performList(ConcreteSqmSelectQueryPlan.java:362) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.query.sqm.internal.QuerySqmImpl.doList(QuerySqmImpl.java:380) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.query.spi.AbstractSelectionQuery.list(AbstractSelectionQuery.java:143) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.query.spi.AbstractSelectionQuery.getSingleResult(AbstractSelectionQuery.java:275) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$SingleEntityExecution.doExecute(JpaQueryExecution.java:224) ~[spring-data-jpa-3.5.1.jar:3.5.1]
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:93) ~[spring-data-jpa-3.5.1.jar:3.5.1]
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:160) ~[spring-data-jpa-3.5.1.jar:3.5.1]
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:148) ~[spring-data-jpa-3.5.1.jar:3.5.1]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170) ~[spring-data-commons-3.5.1.jar:3.5.1]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158) ~[spring-data-commons-3.5.1.jar:3.5.1]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:170) ~[spring-data-commons-3.5.1.jar:3.5.1]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:149) ~[spring-data-commons-3.5.1.jar:3.5.1]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.8.jar:6.2.8]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:69) ~[spring-data-commons-3.5.1.jar:3.5.1]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.8.jar:6.2.8]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380) ~[spring-tx-6.2.8.jar:6.2.8]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-6.2.8.jar:6.2.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.8.jar:6.2.8]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:138) ~[spring-tx-6.2.8.jar:6.2.8]
+	... 82 more
+[ERROR] 2025-07-25 17:02:39.398 [http-nio-9090-exec-4] JwtAuthEntryPoint - Unauthorized error. Message - Full authentication is required to access this resource
+[ERROR] 2025-07-25 17:02:39.405 [http-nio-9090-exec-4] JwtAuthEntryPoint - Unauthorized error. Message - Full authentication is required to access this resource
+[INFO ] 2025-07-25 17:02:45.218 [http-nio-9090-exec-5] AuthRestAPIs - ######## ### ######## ###  SIGN IN  ### ######## ### ########
+[ERROR] 2025-07-25 17:02:45.221 [http-nio-9090-exec-5] AuthRestAPIs - ### GLOBAL EXCEPTION HANDLER 
+[ERROR] 2025-07-25 17:02:45.221 [http-nio-9090-exec-5] AuthRestAPIs - ### Exception : class org.springframework.dao.InvalidDataAccessResourceUsageException
+[ERROR] 2025-07-25 17:02:45.221 [http-nio-9090-exec-5] AuthRestAPIs - ### Message : JDBC exception executing SQL [select u1_0.id,u1_0.doc,u1_0.email,u1_0.name,u1_0.password,u1_0.status,u1_0.username from tb_users u1_0 where u1_0.username=?] [ERROR: column u1_0.doc does not exist
+  Position: 16] [n/a]; SQL [n/a]
+[INFO ] 2025-07-25 17:03:46.249 [restartedMain] MyRootJwt - Starting MyRootJwt using Java 21.0.4 with PID 34828 (C:\Users\nitro\Workspace\STS\my-root-jwt\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
+[DEBUG] 2025-07-25 17:03:46.263 [restartedMain] MyRootJwt - Running with Spring Boot v3.5.3, Spring v6.2.8
+[INFO ] 2025-07-25 17:03:46.264 [restartedMain] MyRootJwt - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 2025-07-25 17:03:50.538 [restartedMain] JwtAuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+[INFO ] 2025-07-25 17:03:51.571 [restartedMain] MyRootJwt - Started MyRootJwt in 5.969 seconds (process running for 7.249)
+[INFO ] 2025-07-25 17:03:51.575 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 17:03:51.575 [restartedMain] MyRootJwt - ######## ###  MY ROOT JWT APPLICATION STARTER  ### ########
+[INFO ] 2025-07-25 17:03:51.575 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 17:04:33.936 [http-nio-9090-exec-2] AuthRestAPIs - ######## ### ######## ###  SIGN IN  ### ######## ### ########
+[ERROR] 2025-07-25 17:04:34.094 [http-nio-9090-exec-2] AuthRestAPIs - ### GLOBAL EXCEPTION HANDLER 
+[ERROR] 2025-07-25 17:04:34.094 [http-nio-9090-exec-2] AuthRestAPIs - ### Exception : class com.thukera.model.messages.InactiveException
+[ERROR] 2025-07-25 17:04:34.094 [http-nio-9090-exec-2] AuthRestAPIs - ### Message : Usuário inativo, contacte seu administrador!
+[INFO ] 2025-07-25 17:06:07.532 [restartedMain] MyRootJwt - Starting MyRootJwt using Java 21.0.4 with PID 34828 (C:\Users\nitro\Workspace\STS\my-root-jwt\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
+[DEBUG] 2025-07-25 17:06:07.532 [restartedMain] MyRootJwt - Running with Spring Boot v3.5.3, Spring v6.2.8
+[INFO ] 2025-07-25 17:06:07.532 [restartedMain] MyRootJwt - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2025-07-25 17:06:13.468 [restartedMain] MyRootJwt - Starting MyRootJwt using Java 21.0.4 with PID 25820 (C:\Users\nitro\Workspace\STS\my-root-jwt\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
+[DEBUG] 2025-07-25 17:06:13.479 [restartedMain] MyRootJwt - Running with Spring Boot v3.5.3, Spring v6.2.8
+[INFO ] 2025-07-25 17:06:13.480 [restartedMain] MyRootJwt - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 2025-07-25 17:06:17.694 [restartedMain] JwtAuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+[INFO ] 2025-07-25 17:06:18.738 [restartedMain] MyRootJwt - Started MyRootJwt in 5.893 seconds (process running for 7.128)
+[INFO ] 2025-07-25 17:06:18.742 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 17:06:18.742 [restartedMain] MyRootJwt - ######## ###  MY ROOT JWT APPLICATION STARTER  ### ########
+[INFO ] 2025-07-25 17:06:18.742 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 17:06:30.777 [http-nio-9090-exec-1] AuthRestAPIs - ######## ### ######## ###  SIGN IN  ### ######## ### ########
+[ERROR] 2025-07-25 17:06:30.929 [http-nio-9090-exec-1] JwtAuthEntryPoint - Unauthorized error. Message - Full authentication is required to access this resource
+[INFO ] 2025-07-25 17:06:46.216 [http-nio-9090-exec-3] AuthRestAPIs - ######## ### ######## ###  SIGN IN  ### ######## ### ########
+[ERROR] 2025-07-25 17:06:46.222 [http-nio-9090-exec-3] JwtAuthEntryPoint - Unauthorized error. Message - Full authentication is required to access this resource
+[ERROR] 2025-07-25 17:07:05.750 [http-nio-9090-exec-4] AuthRestAPIs - ### GLOBAL EXCEPTION HANDLER 
+[ERROR] 2025-07-25 17:07:05.750 [http-nio-9090-exec-4] AuthRestAPIs - ### Exception : class org.springframework.web.bind.MethodArgumentNotValidException
+[ERROR] 2025-07-25 17:07:05.751 [http-nio-9090-exec-4] AuthRestAPIs - ### Message : Validation failed for argument [0] in public java.lang.String com.thukera.controller.TestRestAPIs.registerUser(com.thukera.model.forms.SignUpForm): [Field error in object 'signUpForm' on field 'doc': rejected value [null]; codes [NotBlank.signUpForm.doc,NotBlank.doc,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [signUpForm.doc,doc]; arguments []; default message [doc]]; default message [must not be blank]] 
+[INFO ] 2025-07-25 17:07:11.800 [http-nio-9090-exec-6] AuthRestAPIs - ######## ### ######## ###  SIGN UP  ### ######## ### ########
+[INFO ] 2025-07-25 17:07:11.801 [http-nio-9090-exec-6] AuthRestAPIs - ######## ### Form : SignUpForm(id=null, doc=123.456.789-10, name=superadmin, username=superadmin, email=super@admin.com, role=[admin], password=admin01, status=true)
+[INFO ] 2025-07-25 17:07:25.702 [http-nio-9090-exec-8] AuthRestAPIs - ######## ### ######## ###  SIGN UP  ### ######## ### ########
+[INFO ] 2025-07-25 17:07:25.703 [http-nio-9090-exec-8] AuthRestAPIs - ######## ### Form : SignUpForm(id=null, doc=123.456.789-10, name=superadmin, username=superadmin, email=super@admin.com, role=[admin], password=admin01, status=true)
+[INFO ] 2025-07-25 17:09:31.115 [restartedMain] MyRootJwt - Starting MyRootJwt using Java 21.0.4 with PID 25820 (C:\Users\nitro\Workspace\STS\my-root-jwt\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
+[DEBUG] 2025-07-25 17:09:31.115 [restartedMain] MyRootJwt - Running with Spring Boot v3.5.3, Spring v6.2.8
+[INFO ] 2025-07-25 17:09:31.115 [restartedMain] MyRootJwt - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 2025-07-25 17:09:31.878 [restartedMain] JwtAuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+[INFO ] 2025-07-25 17:09:32.268 [restartedMain] MyRootJwt - Started MyRootJwt in 1.196 seconds (process running for 200.658)
+[INFO ] 2025-07-25 17:09:32.270 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 17:09:32.270 [restartedMain] MyRootJwt - ######## ###  MY ROOT JWT APPLICATION STARTER  ### ########
+[INFO ] 2025-07-25 17:09:32.270 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 17:09:41.487 [http-nio-9090-exec-2] AuthRestAPIs - ######## ### ######## ###  SIGN UP  ### ######## ### ########
+[INFO ] 2025-07-25 17:10:03.134 [http-nio-9090-exec-3] AuthRestAPIs - ######## ### ######## ###  SIGN UP  ### ######## ### ########
+[INFO ] 2025-07-25 17:10:12.160 [http-nio-9090-exec-4] AuthRestAPIs - ######## ### ######## ###  SIGN UP  ### ######## ### ########
+[ERROR] 2025-07-25 17:10:12.442 [http-nio-9090-exec-4] AuthRestAPIs - ### GLOBAL EXCEPTION HANDLER 
+[ERROR] 2025-07-25 17:10:12.443 [http-nio-9090-exec-4] AuthRestAPIs - ### Exception : class jakarta.validation.ConstraintViolationException
+[ERROR] 2025-07-25 17:10:12.443 [http-nio-9090-exec-4] AuthRestAPIs - ### Message : Validation failed for classes [com.thukera.model.entities.User] during persist time for groups [jakarta.validation.groups.Default, ]
+List of constraint violations:[
+	ConstraintViolationImpl{interpolatedMessage='must not be blank', propertyPath=doc, rootBeanClass=class com.thukera.model.entities.User, messageTemplate='{jakarta.validation.constraints.NotBlank.message}'}
+]
+[INFO ] 2025-07-25 17:11:14.507 [restartedMain] MyRootJwt - Starting MyRootJwt using Java 21.0.4 with PID 25820 (C:\Users\nitro\Workspace\STS\my-root-jwt\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
+[DEBUG] 2025-07-25 17:11:14.508 [restartedMain] MyRootJwt - Running with Spring Boot v3.5.3, Spring v6.2.8
+[INFO ] 2025-07-25 17:11:14.508 [restartedMain] MyRootJwt - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 2025-07-25 17:11:17.298 [restartedMain] JwtAuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+[INFO ] 2025-07-25 17:11:17.664 [restartedMain] MyRootJwt - Started MyRootJwt in 3.202 seconds (process running for 306.054)
+[INFO ] 2025-07-25 17:11:17.665 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 17:11:17.665 [restartedMain] MyRootJwt - ######## ###  MY ROOT JWT APPLICATION STARTER  ### ########
+[INFO ] 2025-07-25 17:11:17.665 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 17:11:37.730 [restartedMain] MyRootJwt - Starting MyRootJwt using Java 21.0.4 with PID 25820 (C:\Users\nitro\Workspace\STS\my-root-jwt\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
+[DEBUG] 2025-07-25 17:11:37.731 [restartedMain] MyRootJwt - Running with Spring Boot v3.5.3, Spring v6.2.8
+[INFO ] 2025-07-25 17:11:37.731 [restartedMain] MyRootJwt - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 2025-07-25 17:11:38.471 [restartedMain] JwtAuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+[INFO ] 2025-07-25 17:11:38.880 [restartedMain] MyRootJwt - Started MyRootJwt in 1.185 seconds (process running for 327.27)
+[INFO ] 2025-07-25 17:11:38.881 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 17:11:38.881 [restartedMain] MyRootJwt - ######## ###  MY ROOT JWT APPLICATION STARTER  ### ########
+[INFO ] 2025-07-25 17:11:38.881 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 17:11:45.861 [http-nio-9090-exec-2] AuthRestAPIs - ######## ### ######## ###  SIGN UP  ### ######## ### ########
+[INFO ] 2025-07-25 17:12:01.270 [http-nio-9090-exec-4] AuthRestAPIs - ######## ### ######## ###  SIGN IN  ### ######## ### ########
+[ERROR] 2025-07-25 17:12:01.277 [http-nio-9090-exec-4] JwtAuthEntryPoint - Unauthorized error. Message - Full authentication is required to access this resource
+[INFO ] 2025-07-25 17:12:27.632 [restartedMain] MyRootJwt - Starting MyRootJwt using Java 21.0.4 with PID 25820 (C:\Users\nitro\Workspace\STS\my-root-jwt\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
+[DEBUG] 2025-07-25 17:12:27.633 [restartedMain] MyRootJwt - Running with Spring Boot v3.5.3, Spring v6.2.8
+[INFO ] 2025-07-25 17:12:27.633 [restartedMain] MyRootJwt - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 2025-07-25 17:12:28.384 [restartedMain] JwtAuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+[INFO ] 2025-07-25 17:12:28.758 [restartedMain] MyRootJwt - Started MyRootJwt in 1.162 seconds (process running for 377.148)
+[INFO ] 2025-07-25 17:12:28.759 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 17:12:28.759 [restartedMain] MyRootJwt - ######## ###  MY ROOT JWT APPLICATION STARTER  ### ########
+[INFO ] 2025-07-25 17:12:28.759 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 17:12:31.998 [http-nio-9090-exec-2] AuthRestAPIs - ######## ### ######## ###  SIGN IN  ### ######## ### ########
+[ERROR] 2025-07-25 17:12:32.002 [http-nio-9090-exec-2] AuthRestAPIs - ### GLOBAL EXCEPTION HANDLER 
+[ERROR] 2025-07-25 17:12:32.004 [http-nio-9090-exec-2] AuthRestAPIs - ### Exception : class com.thukera.model.messages.InactiveException
+[ERROR] 2025-07-25 17:12:32.004 [http-nio-9090-exec-2] AuthRestAPIs - ### Message : Usuário inativo, contacte seu administrador!
+[INFO ] 2025-07-25 17:17:37.327 [restartedMain] MyRootJwt - Starting MyRootJwt using Java 21.0.4 with PID 25820 (C:\Users\nitro\Workspace\STS\my-root-jwt\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
+[DEBUG] 2025-07-25 17:17:37.327 [restartedMain] MyRootJwt - Running with Spring Boot v3.5.3, Spring v6.2.8
+[INFO ] 2025-07-25 17:17:37.328 [restartedMain] MyRootJwt - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 2025-07-25 17:17:38.154 [restartedMain] JwtAuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+[INFO ] 2025-07-25 17:17:43.835 [restartedMain] MyRootJwt - Starting MyRootJwt using Java 21.0.4 with PID 25820 (C:\Users\nitro\Workspace\STS\my-root-jwt\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
+[DEBUG] 2025-07-25 17:17:43.836 [restartedMain] MyRootJwt - Running with Spring Boot v3.5.3, Spring v6.2.8
+[INFO ] 2025-07-25 17:17:43.836 [restartedMain] MyRootJwt - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 2025-07-25 17:17:44.558 [restartedMain] JwtAuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+[INFO ] 2025-07-25 17:17:45.005 [restartedMain] MyRootJwt - Started MyRootJwt in 1.198 seconds (process running for 693.395)
+[INFO ] 2025-07-25 17:17:45.007 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 17:17:45.007 [restartedMain] MyRootJwt - ######## ###  MY ROOT JWT APPLICATION STARTER  ### ########
+[INFO ] 2025-07-25 17:17:45.007 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 17:19:49.722 [restartedMain] MyRootJwt - Starting MyRootJwt using Java 21.0.4 with PID 25820 (C:\Users\nitro\Workspace\STS\my-root-jwt\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
+[DEBUG] 2025-07-25 17:19:49.724 [restartedMain] MyRootJwt - Running with Spring Boot v3.5.3, Spring v6.2.8
+[INFO ] 2025-07-25 17:19:49.724 [restartedMain] MyRootJwt - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2025-07-25 17:19:54.746 [restartedMain] MyRootJwt - Starting MyRootJwt using Java 21.0.4 with PID 44192 (C:\Users\nitro\Workspace\STS\my-root-jwt\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
+[DEBUG] 2025-07-25 17:19:54.756 [restartedMain] MyRootJwt - Running with Spring Boot v3.5.3, Spring v6.2.8
+[INFO ] 2025-07-25 17:19:54.757 [restartedMain] MyRootJwt - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 2025-07-25 17:19:59.082 [restartedMain] JwtAuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+[INFO ] 2025-07-25 17:20:38.686 [restartedMain] MyRootJwt - Starting MyRootJwt using Java 21.0.4 with PID 35588 (C:\Users\nitro\Workspace\STS\my-root-jwt\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
+[DEBUG] 2025-07-25 17:20:38.701 [restartedMain] MyRootJwt - Running with Spring Boot v3.5.3, Spring v6.2.8
+[INFO ] 2025-07-25 17:20:38.702 [restartedMain] MyRootJwt - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 2025-07-25 17:20:42.959 [restartedMain] JwtAuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+[INFO ] 2025-07-25 17:20:44.068 [restartedMain] MyRootJwt - Started MyRootJwt in 6.051 seconds (process running for 7.3)
+[INFO ] 2025-07-25 17:20:44.071 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 17:20:44.072 [restartedMain] MyRootJwt - ######## ###  MY ROOT JWT APPLICATION STARTER  ### ########
+[INFO ] 2025-07-25 17:20:44.072 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 17:20:52.142 [http-nio-9090-exec-2] AuthRestAPIs - ######## ### ######## ###  SIGN IN  ### ######## ### ########
+[ERROR] 2025-07-25 17:20:52.322 [http-nio-9090-exec-2] JwtAuthEntryPoint - Unauthorized error. Message - Full authentication is required to access this resource
+[INFO ] 2025-07-25 17:21:29.181 [http-nio-9090-exec-3] AuthRestAPIs - ######## ### ######## ###  SIGN IN  ### ######## ### ########
+[INFO ] 2025-07-25 17:21:57.437 [http-nio-9090-exec-4] AuthRestAPIs - ######## ### ######## ###  SIGN IN  ### ######## ### ########
+[ERROR] 2025-07-25 17:21:57.442 [http-nio-9090-exec-4] JwtAuthEntryPoint - Unauthorized error. Message - Full authentication is required to access this resource
+[INFO ] 2025-07-25 17:25:15.187 [restartedMain] MyRootJwt - Starting MyRootJwt using Java 21.0.4 with PID 35588 (C:\Users\nitro\Workspace\STS\my-root-jwt\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
+[DEBUG] 2025-07-25 17:25:15.188 [restartedMain] MyRootJwt - Running with Spring Boot v3.5.3, Spring v6.2.8
+[INFO ] 2025-07-25 17:25:15.188 [restartedMain] MyRootJwt - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 2025-07-25 17:25:15.968 [restartedMain] JwtAuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+[INFO ] 2025-07-25 17:25:16.370 [restartedMain] MyRootJwt - Started MyRootJwt in 1.225 seconds (process running for 279.602)
+[INFO ] 2025-07-25 17:25:16.372 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 17:25:16.372 [restartedMain] MyRootJwt - ######## ###  MY ROOT JWT APPLICATION STARTER  ### ########
+[INFO ] 2025-07-25 17:25:16.372 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 17:25:21.275 [http-nio-9090-exec-2] AuthRestAPIs - ######## ### ######## ###  SIGN IN  ### ######## ### ########
+[INFO ] 2025-07-25 17:31:19.085 [restartedMain] MyRootJwt - Starting MyRootJwt using Java 21.0.4 with PID 35588 (C:\Users\nitro\Workspace\STS\my-root-jwt\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
+[DEBUG] 2025-07-25 17:31:19.086 [restartedMain] MyRootJwt - Running with Spring Boot v3.5.3, Spring v6.2.8
+[INFO ] 2025-07-25 17:31:19.086 [restartedMain] MyRootJwt - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 2025-07-25 17:31:19.827 [restartedMain] JwtAuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+[INFO ] 2025-07-25 17:31:20.220 [restartedMain] MyRootJwt - Started MyRootJwt in 1.176 seconds (process running for 643.452)
+[INFO ] 2025-07-25 17:31:20.221 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 17:31:20.221 [restartedMain] MyRootJwt - ######## ###  MY ROOT JWT APPLICATION STARTER  ### ########
+[INFO ] 2025-07-25 17:31:20.221 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 17:31:24.239 [http-nio-9090-exec-2] AuthRestAPIs - ######## ### ######## ###  SIGN IN  ### ######## ### ########
+[INFO ] 2025-07-25 17:31:49.484 [http-nio-9090-exec-3] AuthRestAPIs - ######## ### ######## ###  SIGN IN  ### ######## ### ########
+[INFO ] 2025-07-25 17:31:53.912 [http-nio-9090-exec-4] AuthRestAPIs - ######## ### ######## ###  SIGN IN  ### ######## ### ########
+[ERROR] 2025-07-25 17:31:53.925 [http-nio-9090-exec-4] JwtAuthEntryPoint - Unauthorized error. Message - Full authentication is required to access this resource
+[INFO ] 2025-07-25 17:42:35.183 [restartedMain] MyRootJwt - Starting MyRootJwt using Java 21.0.4 with PID 35588 (C:\Users\nitro\Workspace\STS\my-root-jwt\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
+[DEBUG] 2025-07-25 17:42:35.183 [restartedMain] MyRootJwt - Running with Spring Boot v3.5.3, Spring v6.2.8
+[INFO ] 2025-07-25 17:42:35.184 [restartedMain] MyRootJwt - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 2025-07-25 17:42:35.905 [restartedMain] JwtAuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+[INFO ] 2025-07-25 17:42:36.294 [restartedMain] MyRootJwt - Started MyRootJwt in 1.146 seconds (process running for 1319.526)
+[INFO ] 2025-07-25 17:42:36.294 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 17:42:36.296 [restartedMain] MyRootJwt - ######## ###  MY ROOT JWT APPLICATION STARTER  ### ########
+[INFO ] 2025-07-25 17:42:36.296 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[DEBUG] 2025-07-25 17:51:30.202 [http-nio-9090-exec-2] AuthRestAPIs - ######## ### ######## ###  SIGN IN  ### ######## ### ########
+[DEBUG] 2025-07-25 17:51:30.206 [http-nio-9090-exec-2] AuthRestAPIs - ## User Not Found
+[INFO ] 2025-07-25 17:52:00.147 [restartedMain] MyRootJwt - Starting MyRootJwt using Java 21.0.4 with PID 35588 (C:\Users\nitro\Workspace\STS\my-root-jwt\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
+[DEBUG] 2025-07-25 17:52:00.148 [restartedMain] MyRootJwt - Running with Spring Boot v3.5.3, Spring v6.2.8
+[INFO ] 2025-07-25 17:52:00.148 [restartedMain] MyRootJwt - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 2025-07-25 17:52:00.886 [restartedMain] JwtAuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+[INFO ] 2025-07-25 17:52:01.257 [restartedMain] MyRootJwt - Started MyRootJwt in 1.143 seconds (process running for 1884.49)
+[INFO ] 2025-07-25 17:52:01.259 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 17:52:01.259 [restartedMain] MyRootJwt - ######## ###  MY ROOT JWT APPLICATION STARTER  ### ########
+[INFO ] 2025-07-25 17:52:01.259 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[DEBUG] 2025-07-25 17:52:05.501 [http-nio-9090-exec-2] AuthRestAPIs - ######## ### ######## ###  SIGN IN  ### ######## ### ########
+[DEBUG] 2025-07-25 17:52:05.505 [http-nio-9090-exec-2] AuthRestAPIs - ## User Not Found
+[DEBUG] 2025-07-25 17:52:17.089 [http-nio-9090-exec-3] AuthRestAPIs - ######## ### ######## ###  SIGN IN  ### ######## ### ########
+[ERROR] 2025-07-25 17:52:17.254 [http-nio-9090-exec-3] JwtAuthEntryPoint - Unauthorized error. Message - Bad credentials
+[ERROR] 2025-07-25 17:52:17.255 [http-nio-9090-exec-3] JwtAuthEntryPoint - Unauthorized error. Message - Full authentication is required to access this resource
+[INFO ] 2025-07-25 17:54:56.687 [restartedMain] MyRootJwt - Starting MyRootJwt using Java 21.0.4 with PID 35588 (C:\Users\nitro\Workspace\STS\my-root-jwt\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
+[DEBUG] 2025-07-25 17:54:56.688 [restartedMain] MyRootJwt - Running with Spring Boot v3.5.3, Spring v6.2.8
+[INFO ] 2025-07-25 17:54:56.688 [restartedMain] MyRootJwt - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 2025-07-25 17:54:57.394 [restartedMain] JwtAuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+[INFO ] 2025-07-25 17:54:57.779 [restartedMain] MyRootJwt - Started MyRootJwt in 1.129 seconds (process running for 2061.011)
+[INFO ] 2025-07-25 17:54:57.780 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 17:54:57.780 [restartedMain] MyRootJwt - ######## ###  MY ROOT JWT APPLICATION STARTER  ### ########
+[INFO ] 2025-07-25 17:54:57.781 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 17:55:18.880 [restartedMain] MyRootJwt - Starting MyRootJwt using Java 21.0.4 with PID 35588 (C:\Users\nitro\Workspace\STS\my-root-jwt\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
+[DEBUG] 2025-07-25 17:55:18.880 [restartedMain] MyRootJwt - Running with Spring Boot v3.5.3, Spring v6.2.8
+[INFO ] 2025-07-25 17:55:18.880 [restartedMain] MyRootJwt - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 2025-07-25 17:55:19.706 [restartedMain] JwtAuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+[INFO ] 2025-07-25 17:55:20.105 [restartedMain] MyRootJwt - Started MyRootJwt in 1.256 seconds (process running for 2083.337)
+[INFO ] 2025-07-25 17:55:20.106 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 17:55:20.106 [restartedMain] MyRootJwt - ######## ###  MY ROOT JWT APPLICATION STARTER  ### ########
+[INFO ] 2025-07-25 17:55:20.106 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 17:55:29.894 [restartedMain] MyRootJwt - Starting MyRootJwt using Java 21.0.4 with PID 35588 (C:\Users\nitro\Workspace\STS\my-root-jwt\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
+[DEBUG] 2025-07-25 17:55:29.895 [restartedMain] MyRootJwt - Running with Spring Boot v3.5.3, Spring v6.2.8
+[INFO ] 2025-07-25 17:55:29.895 [restartedMain] MyRootJwt - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 2025-07-25 17:55:30.589 [restartedMain] JwtAuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+[INFO ] 2025-07-25 17:55:31.086 [restartedMain] MyRootJwt - Started MyRootJwt in 1.223 seconds (process running for 2094.318)
+[INFO ] 2025-07-25 17:55:31.088 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 17:55:31.088 [restartedMain] MyRootJwt - ######## ###  MY ROOT JWT APPLICATION STARTER  ### ########
+[INFO ] 2025-07-25 17:55:31.088 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[DEBUG] 2025-07-25 18:00:30.749 [http-nio-9090-exec-2] AuthRestAPIs - ######## ### ######## ###  SIGN IN  ### ######## ### ########
+[DEBUG] 2025-07-25 18:00:30.949 [http-nio-9090-exec-2] AuthRestAPIs - ## General Exception
+[INFO ] 2025-07-25 18:01:53.851 [restartedMain] MyRootJwt - Starting MyRootJwt using Java 21.0.4 with PID 35588 (C:\Users\nitro\Workspace\STS\my-root-jwt\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
+[DEBUG] 2025-07-25 18:01:53.851 [restartedMain] MyRootJwt - Running with Spring Boot v3.5.3, Spring v6.2.8
+[INFO ] 2025-07-25 18:01:53.852 [restartedMain] MyRootJwt - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 2025-07-25 18:01:54.682 [restartedMain] JwtAuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+[INFO ] 2025-07-25 18:01:55.075 [restartedMain] MyRootJwt - Started MyRootJwt in 1.259 seconds (process running for 2478.307)
+[INFO ] 2025-07-25 18:01:55.076 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 18:01:55.076 [restartedMain] MyRootJwt - ######## ###  MY ROOT JWT APPLICATION STARTER  ### ########
+[INFO ] 2025-07-25 18:01:55.076 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[DEBUG] 2025-07-25 18:02:36.191 [http-nio-9090-exec-2] AuthRestAPIs - ######## ### ######## ###  SIGN IN  ### ######## ### ########
+[DEBUG] 2025-07-25 18:02:36.368 [http-nio-9090-exec-2] AuthRestAPIs - ## General Exception
+[ERROR] 2025-07-25 18:02:36.368 [http-nio-9090-exec-2] AuthRestAPIs - ### Exception : class org.springframework.security.authentication.BadCredentialsException
+[ERROR] 2025-07-25 18:02:36.368 [http-nio-9090-exec-2] AuthRestAPIs - ### Message : Bad credentials
+[INFO ] 2025-07-25 18:03:12.564 [restartedMain] MyRootJwt - Starting MyRootJwt using Java 21.0.4 with PID 35588 (C:\Users\nitro\Workspace\STS\my-root-jwt\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
+[DEBUG] 2025-07-25 18:03:12.565 [restartedMain] MyRootJwt - Running with Spring Boot v3.5.3, Spring v6.2.8
+[INFO ] 2025-07-25 18:03:12.565 [restartedMain] MyRootJwt - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 2025-07-25 18:03:13.266 [restartedMain] JwtAuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+[INFO ] 2025-07-25 18:03:13.645 [restartedMain] MyRootJwt - Started MyRootJwt in 1.111 seconds (process running for 2556.877)
+[INFO ] 2025-07-25 18:03:13.646 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 18:03:13.646 [restartedMain] MyRootJwt - ######## ###  MY ROOT JWT APPLICATION STARTER  ### ########
+[INFO ] 2025-07-25 18:03:13.646 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 18:03:25.447 [restartedMain] MyRootJwt - Starting MyRootJwt using Java 21.0.4 with PID 35588 (C:\Users\nitro\Workspace\STS\my-root-jwt\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
+[DEBUG] 2025-07-25 18:03:25.447 [restartedMain] MyRootJwt - Running with Spring Boot v3.5.3, Spring v6.2.8
+[INFO ] 2025-07-25 18:03:25.448 [restartedMain] MyRootJwt - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 2025-07-25 18:03:26.159 [restartedMain] JwtAuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+[INFO ] 2025-07-25 18:03:26.549 [restartedMain] MyRootJwt - Started MyRootJwt in 1.132 seconds (process running for 2569.781)
+[INFO ] 2025-07-25 18:03:26.550 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 18:03:26.550 [restartedMain] MyRootJwt - ######## ###  MY ROOT JWT APPLICATION STARTER  ### ########
+[INFO ] 2025-07-25 18:03:26.550 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 18:03:29.115 [restartedMain] MyRootJwt - Starting MyRootJwt using Java 21.0.4 with PID 35588 (C:\Users\nitro\Workspace\STS\my-root-jwt\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
+[DEBUG] 2025-07-25 18:03:29.115 [restartedMain] MyRootJwt - Running with Spring Boot v3.5.3, Spring v6.2.8
+[INFO ] 2025-07-25 18:03:29.116 [restartedMain] MyRootJwt - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 2025-07-25 18:03:29.931 [restartedMain] JwtAuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+[INFO ] 2025-07-25 18:03:30.302 [restartedMain] MyRootJwt - Started MyRootJwt in 1.218 seconds (process running for 2573.534)
+[INFO ] 2025-07-25 18:03:30.303 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 18:03:30.303 [restartedMain] MyRootJwt - ######## ###  MY ROOT JWT APPLICATION STARTER  ### ########
+[INFO ] 2025-07-25 18:03:30.303 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 18:03:34.934 [restartedMain] MyRootJwt - Starting MyRootJwt using Java 21.0.4 with PID 35588 (C:\Users\nitro\Workspace\STS\my-root-jwt\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
+[DEBUG] 2025-07-25 18:03:34.935 [restartedMain] MyRootJwt - Running with Spring Boot v3.5.3, Spring v6.2.8
+[INFO ] 2025-07-25 18:03:34.935 [restartedMain] MyRootJwt - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 2025-07-25 18:03:35.635 [restartedMain] JwtAuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+[INFO ] 2025-07-25 18:03:36.026 [restartedMain] MyRootJwt - Started MyRootJwt in 1.127 seconds (process running for 2579.258)
+[INFO ] 2025-07-25 18:03:36.027 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 18:03:36.027 [restartedMain] MyRootJwt - ######## ###  MY ROOT JWT APPLICATION STARTER  ### ########
+[INFO ] 2025-07-25 18:03:36.027 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 18:03:55.899 [restartedMain] MyRootJwt - Starting MyRootJwt using Java 21.0.4 with PID 35588 (C:\Users\nitro\Workspace\STS\my-root-jwt\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
+[DEBUG] 2025-07-25 18:03:55.900 [restartedMain] MyRootJwt - Running with Spring Boot v3.5.3, Spring v6.2.8
+[INFO ] 2025-07-25 18:03:55.900 [restartedMain] MyRootJwt - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 2025-07-25 18:03:56.608 [restartedMain] JwtAuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+[INFO ] 2025-07-25 18:03:56.983 [restartedMain] MyRootJwt - Started MyRootJwt in 1.116 seconds (process running for 2600.215)
+[INFO ] 2025-07-25 18:03:56.984 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 18:03:56.984 [restartedMain] MyRootJwt - ######## ###  MY ROOT JWT APPLICATION STARTER  ### ########
+[INFO ] 2025-07-25 18:03:56.985 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[DEBUG] 2025-07-25 18:04:04.828 [http-nio-9090-exec-2] AuthRestAPIs - ######## ### ######## ###  SIGN IN  ### ######## ### ########
+[DEBUG] 2025-07-25 18:04:04.990 [http-nio-9090-exec-2] AuthRestAPIs - ##  Bad Credentials
+[ERROR] 2025-07-25 18:04:04.991 [http-nio-9090-exec-2] AuthRestAPIs - ### Exception : class org.springframework.security.authentication.BadCredentialsException
+[ERROR] 2025-07-25 18:04:04.991 [http-nio-9090-exec-2] AuthRestAPIs - ### Message : Bad credentials
+[DEBUG] 2025-07-25 18:04:12.777 [http-nio-9090-exec-3] AuthRestAPIs - ######## ### ######## ###  SIGN IN  ### ######## ### ########
+[DEBUG] 2025-07-25 18:04:18.122 [http-nio-9090-exec-4] AuthRestAPIs - ######## ### ######## ###  SIGN IN  ### ######## ### ########
+[DEBUG] 2025-07-25 18:04:18.125 [http-nio-9090-exec-4] AuthRestAPIs - ##  Not Found
+[ERROR] 2025-07-25 18:04:18.125 [http-nio-9090-exec-4] AuthRestAPIs - ### Exception : class java.util.NoSuchElementException
+[ERROR] 2025-07-25 18:04:18.125 [http-nio-9090-exec-4] AuthRestAPIs - ### Message : No value present
+[DEBUG] 2025-07-25 18:04:25.882 [http-nio-9090-exec-5] AuthRestAPIs - ######## ### ######## ###  SIGN IN  ### ######## ### ########
+[DEBUG] 2025-07-25 18:04:25.965 [http-nio-9090-exec-5] AuthRestAPIs - ##  Bad Credentials
+[ERROR] 2025-07-25 18:04:25.965 [http-nio-9090-exec-5] AuthRestAPIs - ### Exception : class org.springframework.security.authentication.BadCredentialsException
+[ERROR] 2025-07-25 18:04:25.965 [http-nio-9090-exec-5] AuthRestAPIs - ### Message : Bad credentials
+[INFO ] 2025-07-25 18:04:51.672 [restartedMain] MyRootJwt - Starting MyRootJwt using Java 21.0.4 with PID 35588 (C:\Users\nitro\Workspace\STS\my-root-jwt\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
+[DEBUG] 2025-07-25 18:04:51.672 [restartedMain] MyRootJwt - Running with Spring Boot v3.5.3, Spring v6.2.8
+[INFO ] 2025-07-25 18:04:51.672 [restartedMain] MyRootJwt - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 2025-07-25 18:04:52.381 [restartedMain] JwtAuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+[INFO ] 2025-07-25 18:04:52.749 [restartedMain] MyRootJwt - Started MyRootJwt in 1.109 seconds (process running for 2655.981)
+[INFO ] 2025-07-25 18:04:52.750 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 18:04:52.751 [restartedMain] MyRootJwt - ######## ###  MY ROOT JWT APPLICATION STARTER  ### ########
+[INFO ] 2025-07-25 18:04:52.751 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 18:05:12.728 [restartedMain] MyRootJwt - Starting MyRootJwt using Java 21.0.4 with PID 35588 (C:\Users\nitro\Workspace\STS\my-root-jwt\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
+[DEBUG] 2025-07-25 18:05:12.729 [restartedMain] MyRootJwt - Running with Spring Boot v3.5.3, Spring v6.2.8
+[INFO ] 2025-07-25 18:05:12.729 [restartedMain] MyRootJwt - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 2025-07-25 18:05:13.440 [restartedMain] JwtAuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+[INFO ] 2025-07-25 18:05:13.834 [restartedMain] MyRootJwt - Started MyRootJwt in 1.137 seconds (process running for 2677.067)
+[INFO ] 2025-07-25 18:05:13.835 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 18:05:13.835 [restartedMain] MyRootJwt - ######## ###  MY ROOT JWT APPLICATION STARTER  ### ########
+[INFO ] 2025-07-25 18:05:13.835 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 18:06:33.413 [restartedMain] MyRootJwt - Starting MyRootJwt using Java 21.0.4 with PID 35588 (C:\Users\nitro\Workspace\STS\my-root-jwt\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
+[DEBUG] 2025-07-25 18:06:33.414 [restartedMain] MyRootJwt - Running with Spring Boot v3.5.3, Spring v6.2.8
+[INFO ] 2025-07-25 18:06:33.414 [restartedMain] MyRootJwt - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 2025-07-25 18:06:34.116 [restartedMain] JwtAuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+[INFO ] 2025-07-25 18:06:34.489 [restartedMain] MyRootJwt - Started MyRootJwt in 1.108 seconds (process running for 2757.721)
+[INFO ] 2025-07-25 18:06:34.490 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 18:06:34.490 [restartedMain] MyRootJwt - ######## ###  MY ROOT JWT APPLICATION STARTER  ### ########
+[INFO ] 2025-07-25 18:06:34.490 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 18:11:38.218 [restartedMain] MyRootJwt - Starting MyRootJwt using Java 21.0.4 with PID 35588 (C:\Users\nitro\Workspace\STS\my-root-jwt\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
+[DEBUG] 2025-07-25 18:11:38.219 [restartedMain] MyRootJwt - Running with Spring Boot v3.5.3, Spring v6.2.8
+[INFO ] 2025-07-25 18:11:38.219 [restartedMain] MyRootJwt - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 2025-07-25 18:11:38.911 [restartedMain] JwtAuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+[INFO ] 2025-07-25 18:11:39.328 [restartedMain] MyRootJwt - Started MyRootJwt in 1.14 seconds (process running for 3062.559)
+[INFO ] 2025-07-25 18:11:39.329 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 18:11:39.329 [restartedMain] MyRootJwt - ######## ###  MY ROOT JWT APPLICATION STARTER  ### ########
+[INFO ] 2025-07-25 18:11:39.329 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 18:11:42.949 [restartedMain] MyRootJwt - Starting MyRootJwt using Java 21.0.4 with PID 35588 (C:\Users\nitro\Workspace\STS\my-root-jwt\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
+[DEBUG] 2025-07-25 18:11:42.950 [restartedMain] MyRootJwt - Running with Spring Boot v3.5.3, Spring v6.2.8
+[INFO ] 2025-07-25 18:11:42.950 [restartedMain] MyRootJwt - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 2025-07-25 18:11:43.649 [restartedMain] JwtAuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+[INFO ] 2025-07-25 18:11:44.043 [restartedMain] MyRootJwt - Started MyRootJwt in 1.127 seconds (process running for 3067.275)
+[INFO ] 2025-07-25 18:11:44.044 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 18:11:44.045 [restartedMain] MyRootJwt - ######## ###  MY ROOT JWT APPLICATION STARTER  ### ########
+[INFO ] 2025-07-25 18:11:44.045 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 18:12:00.996 [restartedMain] MyRootJwt - Starting MyRootJwt using Java 21.0.4 with PID 35588 (C:\Users\nitro\Workspace\STS\my-root-jwt\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
+[DEBUG] 2025-07-25 18:12:00.997 [restartedMain] MyRootJwt - Running with Spring Boot v3.5.3, Spring v6.2.8
+[INFO ] 2025-07-25 18:12:00.997 [restartedMain] MyRootJwt - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 2025-07-25 18:12:01.685 [restartedMain] JwtAuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+[INFO ] 2025-07-25 18:12:02.061 [restartedMain] MyRootJwt - Started MyRootJwt in 1.096 seconds (process running for 3085.293)
+[INFO ] 2025-07-25 18:12:02.063 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 18:12:02.063 [restartedMain] MyRootJwt - ######## ###  MY ROOT JWT APPLICATION STARTER  ### ########
+[INFO ] 2025-07-25 18:12:02.063 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 18:14:32.454 [restartedMain] MyRootJwt - Starting MyRootJwt using Java 21.0.4 with PID 35588 (C:\Users\nitro\Workspace\STS\my-root-jwt\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
+[DEBUG] 2025-07-25 18:14:32.455 [restartedMain] MyRootJwt - Running with Spring Boot v3.5.3, Spring v6.2.8
+[INFO ] 2025-07-25 18:14:32.455 [restartedMain] MyRootJwt - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 2025-07-25 18:14:33.189 [restartedMain] JwtAuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+[INFO ] 2025-07-25 18:14:33.589 [restartedMain] MyRootJwt - Started MyRootJwt in 1.164 seconds (process running for 3236.821)
+[INFO ] 2025-07-25 18:14:33.590 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 18:14:33.590 [restartedMain] MyRootJwt - ######## ###  MY ROOT JWT APPLICATION STARTER  ### ########
+[INFO ] 2025-07-25 18:14:33.590 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 18:15:17.255 [restartedMain] MyRootJwt - Starting MyRootJwt using Java 21.0.4 with PID 35588 (C:\Users\nitro\Workspace\STS\my-root-jwt\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
+[DEBUG] 2025-07-25 18:15:17.255 [restartedMain] MyRootJwt - Running with Spring Boot v3.5.3, Spring v6.2.8
+[INFO ] 2025-07-25 18:15:17.255 [restartedMain] MyRootJwt - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 2025-07-25 18:15:17.970 [restartedMain] JwtAuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+[INFO ] 2025-07-25 18:15:18.365 [restartedMain] MyRootJwt - Started MyRootJwt in 1.143 seconds (process running for 3281.598)
+[INFO ] 2025-07-25 18:15:18.367 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 18:15:18.367 [restartedMain] MyRootJwt - ######## ###  MY ROOT JWT APPLICATION STARTER  ### ########
+[INFO ] 2025-07-25 18:15:18.367 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 18:15:47.726 [http-nio-9090-exec-2] AuthRestAPIs - ######## ### ######## ###  SIGN UP  ### ######## ### ########
+[DEBUG] 2025-07-25 18:15:47.732 [http-nio-9090-exec-2] AuthRestAPIs - ### Username Exists!
+[INFO ] 2025-07-25 18:15:52.611 [http-nio-9090-exec-3] AuthRestAPIs - ######## ### ######## ###  SIGN UP  ### ######## ### ########
+[DEBUG] 2025-07-25 18:15:52.612 [http-nio-9090-exec-3] AuthRestAPIs - ### Username Exists!
+[INFO ] 2025-07-25 18:15:56.984 [http-nio-9090-exec-4] AuthRestAPIs - ######## ### ######## ###  SIGN UP  ### ######## ### ########
+[DEBUG] 2025-07-25 18:15:56.988 [http-nio-9090-exec-4] AuthRestAPIs - ### Username Exists!
+[INFO ] 2025-07-25 18:16:13.437 [http-nio-9090-exec-5] AuthRestAPIs - ######## ### ######## ###  SIGN UP  ### ######## ### ########
+[DEBUG] 2025-07-25 18:16:13.441 [http-nio-9090-exec-5] AuthRestAPIs - ### Username Exists!
+[INFO ] 2025-07-25 18:16:26.495 [http-nio-9090-exec-6] AuthRestAPIs - ######## ### ######## ###  SIGN UP  ### ######## ### ########
+[INFO ] 2025-07-25 18:18:03.152 [restartedMain] MyRootJwt - Starting MyRootJwt using Java 21.0.4 with PID 35588 (C:\Users\nitro\Workspace\STS\my-root-jwt\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
+[DEBUG] 2025-07-25 18:18:03.152 [restartedMain] MyRootJwt - Running with Spring Boot v3.5.3, Spring v6.2.8
+[INFO ] 2025-07-25 18:18:03.152 [restartedMain] MyRootJwt - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 2025-07-25 18:18:03.843 [restartedMain] JwtAuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+[INFO ] 2025-07-25 18:18:04.231 [restartedMain] MyRootJwt - Started MyRootJwt in 1.108 seconds (process running for 3447.463)
+[INFO ] 2025-07-25 18:18:04.232 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 18:18:04.232 [restartedMain] MyRootJwt - ######## ###  MY ROOT JWT APPLICATION STARTER  ### ########
+[INFO ] 2025-07-25 18:18:04.232 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 18:18:21.718 [http-nio-9090-exec-2] AuthRestAPIs - ######## ### ######## ###  SIGN UP  ### ######## ### ########
+[DEBUG] 2025-07-25 18:18:21.812 [http-nio-9090-exec-2] AuthRestAPIs - ### User Saved!!
+[INFO ] 2025-07-25 18:18:31.922 [http-nio-9090-exec-3] AuthRestAPIs - ######## ### ######## ###  SIGN UP  ### ######## ### ########
+[DEBUG] 2025-07-25 18:18:31.924 [http-nio-9090-exec-3] AuthRestAPIs - ### Username Exists!
+[INFO ] 2025-07-25 18:19:25.802 [http-nio-9090-exec-4] AuthRestAPIs - ######## ### ######## ###  SIGN UP  ### ######## ### ########
+[DEBUG] 2025-07-25 18:19:25.806 [http-nio-9090-exec-4] AuthRestAPIs - ### Username Exists!
+[INFO ] 2025-07-25 18:19:31.971 [http-nio-9090-exec-5] AuthRestAPIs - ######## ### ######## ###  SIGN UP  ### ######## ### ########
+[DEBUG] 2025-07-25 18:19:33.579 [http-nio-9090-exec-5] AuthRestAPIs - ### User Saved!!
+[INFO ] 2025-07-25 18:19:58.702 [restartedMain] MyRootJwt - Starting MyRootJwt using Java 21.0.4 with PID 35588 (C:\Users\nitro\Workspace\STS\my-root-jwt\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
+[DEBUG] 2025-07-25 18:19:58.703 [restartedMain] MyRootJwt - Running with Spring Boot v3.5.3, Spring v6.2.8
+[INFO ] 2025-07-25 18:19:58.703 [restartedMain] MyRootJwt - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 2025-07-25 18:19:59.431 [restartedMain] JwtAuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+[INFO ] 2025-07-25 18:19:59.830 [restartedMain] MyRootJwt - Started MyRootJwt in 1.157 seconds (process running for 3563.062)
+[INFO ] 2025-07-25 18:19:59.831 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 18:19:59.831 [restartedMain] MyRootJwt - ######## ###  MY ROOT JWT APPLICATION STARTER  ### ########
+[INFO ] 2025-07-25 18:19:59.831 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 18:20:26.341 [http-nio-9090-exec-2] AuthRestAPIs - ######## ### ######## ###  SIGN UP  ### ######## ### ########
+[DEBUG] 2025-07-25 18:20:26.432 [http-nio-9090-exec-2] AuthRestAPIs - ### User Saved!!
+[INFO ] 2025-07-25 18:35:05.076 [restartedMain] MyRootJwt - Starting MyRootJwt using Java 21.0.4 with PID 45652 (C:\Users\nitro\Workspace\STS\my-root-jwt\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
+[DEBUG] 2025-07-25 18:35:05.086 [restartedMain] MyRootJwt - Running with Spring Boot v3.5.3, Spring v6.2.8
+[INFO ] 2025-07-25 18:35:05.087 [restartedMain] MyRootJwt - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 2025-07-25 18:35:09.683 [restartedMain] JwtAuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+[INFO ] 2025-07-25 18:35:10.763 [restartedMain] MyRootJwt - Started MyRootJwt in 6.314 seconds (process running for 7.549)
+[INFO ] 2025-07-25 18:35:10.766 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 18:35:10.766 [restartedMain] MyRootJwt - ######## ###  MY ROOT JWT APPLICATION STARTER  ### ########
+[INFO ] 2025-07-25 18:35:10.766 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[DEBUG] 2025-07-25 18:35:38.794 [http-nio-9090-exec-1] AuthRestAPIs - ######## ### ######## ###  FIND BY ID  ### ######## ### ########
+[DEBUG] 2025-07-25 18:35:38.810 [http-nio-9090-exec-1] AuthRestAPIs - ## General Exception
+[ERROR] 2025-07-25 18:35:38.810 [http-nio-9090-exec-1] AuthRestAPIs - ### Exception : class com.thukera.model.messages.NotFoundException
+[ERROR] 2025-07-25 18:35:38.810 [http-nio-9090-exec-1] AuthRestAPIs - ### Message : Recurso não encontrado
+[INFO ] 2025-07-25 18:37:00.135 [restartedMain] MyRootJwt - Starting MyRootJwt using Java 21.0.4 with PID 45652 (C:\Users\nitro\Workspace\STS\my-root-jwt\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
+[DEBUG] 2025-07-25 18:37:00.135 [restartedMain] MyRootJwt - Running with Spring Boot v3.5.3, Spring v6.2.8
+[INFO ] 2025-07-25 18:37:00.136 [restartedMain] MyRootJwt - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 2025-07-25 18:37:00.907 [restartedMain] JwtAuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+[INFO ] 2025-07-25 18:37:01.316 [restartedMain] MyRootJwt - Started MyRootJwt in 1.223 seconds (process running for 118.102)
+[INFO ] 2025-07-25 18:37:01.318 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 18:37:01.318 [restartedMain] MyRootJwt - ######## ###  MY ROOT JWT APPLICATION STARTER  ### ########
+[INFO ] 2025-07-25 18:37:01.318 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 18:37:42.540 [restartedMain] MyRootJwt - Starting MyRootJwt using Java 21.0.4 with PID 45652 (C:\Users\nitro\Workspace\STS\my-root-jwt\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
+[DEBUG] 2025-07-25 18:37:42.540 [restartedMain] MyRootJwt - Running with Spring Boot v3.5.3, Spring v6.2.8
+[INFO ] 2025-07-25 18:37:42.541 [restartedMain] MyRootJwt - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 2025-07-25 18:37:43.291 [restartedMain] JwtAuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+[INFO ] 2025-07-25 18:37:43.682 [restartedMain] MyRootJwt - Started MyRootJwt in 1.188 seconds (process running for 160.468)
+[INFO ] 2025-07-25 18:37:43.683 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 18:37:43.683 [restartedMain] MyRootJwt - ######## ###  MY ROOT JWT APPLICATION STARTER  ### ########
+[INFO ] 2025-07-25 18:37:43.684 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 18:39:21.599 [restartedMain] MyRootJwt - Starting MyRootJwt using Java 21.0.4 with PID 45652 (C:\Users\nitro\Workspace\STS\my-root-jwt\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
+[DEBUG] 2025-07-25 18:39:21.600 [restartedMain] MyRootJwt - Running with Spring Boot v3.5.3, Spring v6.2.8
+[INFO ] 2025-07-25 18:39:21.600 [restartedMain] MyRootJwt - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 2025-07-25 18:39:22.349 [restartedMain] JwtAuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+[INFO ] 2025-07-25 18:39:22.722 [restartedMain] MyRootJwt - Started MyRootJwt in 1.158 seconds (process running for 259.508)
+[INFO ] 2025-07-25 18:39:22.724 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 18:39:22.724 [restartedMain] MyRootJwt - ######## ###  MY ROOT JWT APPLICATION STARTER  ### ########
+[INFO ] 2025-07-25 18:39:22.724 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 18:42:06.403 [restartedMain] MyRootJwt - Starting MyRootJwt using Java 21.0.4 with PID 45652 (C:\Users\nitro\Workspace\STS\my-root-jwt\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
+[DEBUG] 2025-07-25 18:42:06.404 [restartedMain] MyRootJwt - Running with Spring Boot v3.5.3, Spring v6.2.8
+[INFO ] 2025-07-25 18:42:06.404 [restartedMain] MyRootJwt - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 2025-07-25 18:42:07.133 [restartedMain] JwtAuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+[INFO ] 2025-07-25 18:42:07.515 [restartedMain] MyRootJwt - Started MyRootJwt in 1.147 seconds (process running for 424.301)
+[INFO ] 2025-07-25 18:42:07.517 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 18:42:07.517 [restartedMain] MyRootJwt - ######## ###  MY ROOT JWT APPLICATION STARTER  ### ########
+[INFO ] 2025-07-25 18:42:07.517 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 18:43:26.595 [restartedMain] MyRootJwt - Starting MyRootJwt using Java 21.0.4 with PID 45652 (C:\Users\nitro\Workspace\STS\my-root-jwt\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
+[DEBUG] 2025-07-25 18:43:26.596 [restartedMain] MyRootJwt - Running with Spring Boot v3.5.3, Spring v6.2.8
+[INFO ] 2025-07-25 18:43:26.596 [restartedMain] MyRootJwt - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 2025-07-25 18:43:27.301 [restartedMain] JwtAuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+[INFO ] 2025-07-25 18:43:27.677 [restartedMain] MyRootJwt - Started MyRootJwt in 1.119 seconds (process running for 504.463)
+[INFO ] 2025-07-25 18:43:27.678 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 18:43:27.678 [restartedMain] MyRootJwt - ######## ###  MY ROOT JWT APPLICATION STARTER  ### ########
+[INFO ] 2025-07-25 18:43:27.678 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 18:44:48.308 [restartedMain] MyRootJwt - Starting MyRootJwt using Java 21.0.4 with PID 45652 (C:\Users\nitro\Workspace\STS\my-root-jwt\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
+[DEBUG] 2025-07-25 18:44:48.309 [restartedMain] MyRootJwt - Running with Spring Boot v3.5.3, Spring v6.2.8
+[INFO ] 2025-07-25 18:44:48.309 [restartedMain] MyRootJwt - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 2025-07-25 18:44:49.017 [restartedMain] JwtAuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+[INFO ] 2025-07-25 18:44:49.380 [restartedMain] MyRootJwt - Started MyRootJwt in 1.101 seconds (process running for 586.165)
+[INFO ] 2025-07-25 18:44:49.381 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 18:44:49.381 [restartedMain] MyRootJwt - ######## ###  MY ROOT JWT APPLICATION STARTER  ### ########
+[INFO ] 2025-07-25 18:44:49.381 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[ERROR] 2025-07-25 18:52:36.672 [http-nio-9090-exec-2] JwtAuthEntryPoint - Unauthorized error. Message - Full authentication is required to access this resource
+[DEBUG] 2025-07-25 18:52:49.482 [http-nio-9090-exec-3] AuthRestAPIs - ######## ### ######## ###  SIGN IN  ### ######## ### ########
+[ERROR] 2025-07-25 18:52:54.732 [http-nio-9090-exec-4] JwtAuthEntryPoint - Unauthorized error. Message - Full authentication is required to access this resource
+[INFO ] 2025-07-25 18:53:32.948 [restartedMain] MyRootJwt - Starting MyRootJwt using Java 21.0.4 with PID 45652 (C:\Users\nitro\Workspace\STS\my-root-jwt\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
+[DEBUG] 2025-07-25 18:53:32.949 [restartedMain] MyRootJwt - Running with Spring Boot v3.5.3, Spring v6.2.8
+[INFO ] 2025-07-25 18:53:32.949 [restartedMain] MyRootJwt - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 2025-07-25 18:53:33.658 [restartedMain] JwtAuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+[INFO ] 2025-07-25 18:53:34.034 [restartedMain] MyRootJwt - Started MyRootJwt in 1.12 seconds (process running for 1110.82)
+[INFO ] 2025-07-25 18:53:34.036 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 18:53:34.036 [restartedMain] MyRootJwt - ######## ###  MY ROOT JWT APPLICATION STARTER  ### ########
+[INFO ] 2025-07-25 18:53:34.036 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 18:54:37.243 [restartedMain] MyRootJwt - Starting MyRootJwt using Java 21.0.4 with PID 45652 (C:\Users\nitro\Workspace\STS\my-root-jwt\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
+[DEBUG] 2025-07-25 18:54:37.244 [restartedMain] MyRootJwt - Running with Spring Boot v3.5.3, Spring v6.2.8
+[INFO ] 2025-07-25 18:54:37.244 [restartedMain] MyRootJwt - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 2025-07-25 18:54:37.939 [restartedMain] JwtAuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+[INFO ] 2025-07-25 18:54:38.299 [restartedMain] MyRootJwt - Started MyRootJwt in 1.092 seconds (process running for 1175.085)
+[INFO ] 2025-07-25 18:54:38.300 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 18:54:38.300 [restartedMain] MyRootJwt - ######## ###  MY ROOT JWT APPLICATION STARTER  ### ########
+[INFO ] 2025-07-25 18:54:38.300 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[ERROR] 2025-07-25 18:54:41.798 [http-nio-9090-exec-2] JwtAuthEntryPoint - Unauthorized error. Message - Full authentication is required to access this resource
+[DEBUG] 2025-07-25 18:54:48.653 [http-nio-9090-exec-3] AuthRestAPIs - ######## ### ######## ###  FIND ALL  ### ######## ### ########
+[ERROR] 2025-07-25 18:54:57.070 [http-nio-9090-exec-5] JwtAuthEntryPoint - Unauthorized error. Message - Full authentication is required to access this resource
+[ERROR] 2025-07-25 18:55:20.022 [http-nio-9090-exec-4] JwtAuthEntryPoint - Unauthorized error. Message - Full authentication is required to access this resource
+[INFO ] 2025-07-25 18:57:12.796 [restartedMain] MyRootJwt - Starting MyRootJwt using Java 21.0.4 with PID 45652 (C:\Users\nitro\Workspace\STS\my-root-jwt\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
+[DEBUG] 2025-07-25 18:57:12.797 [restartedMain] MyRootJwt - Running with Spring Boot v3.5.3, Spring v6.2.8
+[INFO ] 2025-07-25 18:57:12.797 [restartedMain] MyRootJwt - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 2025-07-25 18:57:13.511 [restartedMain] JwtAuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+[INFO ] 2025-07-25 18:57:13.886 [restartedMain] MyRootJwt - Started MyRootJwt in 1.125 seconds (process running for 1330.672)
+[INFO ] 2025-07-25 18:57:13.887 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 18:57:13.888 [restartedMain] MyRootJwt - ######## ###  MY ROOT JWT APPLICATION STARTER  ### ########
+[INFO ] 2025-07-25 18:57:13.888 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 18:59:09.422 [restartedMain] MyRootJwt - Starting MyRootJwt using Java 21.0.4 with PID 45652 (C:\Users\nitro\Workspace\STS\my-root-jwt\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
+[DEBUG] 2025-07-25 18:59:09.423 [restartedMain] MyRootJwt - Running with Spring Boot v3.5.3, Spring v6.2.8
+[INFO ] 2025-07-25 18:59:09.423 [restartedMain] MyRootJwt - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 2025-07-25 18:59:10.225 [restartedMain] JwtAuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+[INFO ] 2025-07-25 18:59:10.597 [restartedMain] MyRootJwt - Started MyRootJwt in 1.205 seconds (process running for 1447.382)
+[INFO ] 2025-07-25 18:59:10.598 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 18:59:10.598 [restartedMain] MyRootJwt - ######## ###  MY ROOT JWT APPLICATION STARTER  ### ########
+[INFO ] 2025-07-25 18:59:10.598 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 18:59:35.796 [restartedMain] MyRootJwt - Starting MyRootJwt using Java 21.0.4 with PID 45652 (C:\Users\nitro\Workspace\STS\my-root-jwt\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
+[DEBUG] 2025-07-25 18:59:35.797 [restartedMain] MyRootJwt - Running with Spring Boot v3.5.3, Spring v6.2.8
+[INFO ] 2025-07-25 18:59:35.797 [restartedMain] MyRootJwt - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 2025-07-25 18:59:36.490 [restartedMain] JwtAuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+[INFO ] 2025-07-25 18:59:36.868 [restartedMain] MyRootJwt - Started MyRootJwt in 1.104 seconds (process running for 1473.654)
+[INFO ] 2025-07-25 18:59:36.869 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 18:59:36.869 [restartedMain] MyRootJwt - ######## ###  MY ROOT JWT APPLICATION STARTER  ### ########
+[INFO ] 2025-07-25 18:59:36.869 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 18:59:50.752 [restartedMain] MyRootJwt - Starting MyRootJwt using Java 21.0.4 with PID 45652 (C:\Users\nitro\Workspace\STS\my-root-jwt\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
+[DEBUG] 2025-07-25 18:59:50.753 [restartedMain] MyRootJwt - Running with Spring Boot v3.5.3, Spring v6.2.8
+[INFO ] 2025-07-25 18:59:50.753 [restartedMain] MyRootJwt - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 2025-07-25 18:59:51.487 [restartedMain] JwtAuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+[INFO ] 2025-07-25 18:59:51.864 [restartedMain] MyRootJwt - Started MyRootJwt in 1.147 seconds (process running for 1488.65)
+[INFO ] 2025-07-25 18:59:51.865 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 18:59:51.865 [restartedMain] MyRootJwt - ######## ###  MY ROOT JWT APPLICATION STARTER  ### ########
+[INFO ] 2025-07-25 18:59:51.865 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 19:00:02.665 [restartedMain] MyRootJwt - Starting MyRootJwt using Java 21.0.4 with PID 45652 (C:\Users\nitro\Workspace\STS\my-root-jwt\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
+[DEBUG] 2025-07-25 19:00:02.665 [restartedMain] MyRootJwt - Running with Spring Boot v3.5.3, Spring v6.2.8
+[INFO ] 2025-07-25 19:00:02.666 [restartedMain] MyRootJwt - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 2025-07-25 19:00:03.382 [restartedMain] JwtAuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+[INFO ] 2025-07-25 19:00:03.776 [restartedMain] MyRootJwt - Started MyRootJwt in 1.146 seconds (process running for 1500.561)
+[INFO ] 2025-07-25 19:00:03.777 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 19:00:03.777 [restartedMain] MyRootJwt - ######## ###  MY ROOT JWT APPLICATION STARTER  ### ########
+[INFO ] 2025-07-25 19:00:03.777 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[DEBUG] 2025-07-25 19:00:05.997 [http-nio-9090-exec-2] AuthRestAPIs - ######## ### DELETE USER BY ID
+[INFO ] 2025-07-25 19:02:54.644 [restartedMain] MyRootJwt - Starting MyRootJwt using Java 21.0.4 with PID 9792 (C:\Users\nitro\Workspace\STS\my-root-jwt\target\classes started by nitro in C:\Users\nitro\Workspace\STS\my-root-jwt)
+[DEBUG] 2025-07-25 19:02:54.654 [restartedMain] MyRootJwt - Running with Spring Boot v3.5.3, Spring v6.2.8
+[INFO ] 2025-07-25 19:02:54.655 [restartedMain] MyRootJwt - No active profile set, falling back to 1 default profile: "default"
+[DEBUG] 2025-07-25 19:02:58.779 [restartedMain] JwtAuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+[INFO ] 2025-07-25 19:02:59.807 [restartedMain] MyRootJwt - Started MyRootJwt in 5.781 seconds (process running for 6.999)
+[INFO ] 2025-07-25 19:02:59.811 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[INFO ] 2025-07-25 19:02:59.811 [restartedMain] MyRootJwt - ######## ###  MY ROOT JWT APPLICATION STARTER  ### ########
+[INFO ] 2025-07-25 19:02:59.811 [restartedMain] MyRootJwt - ## ######## ######## ######### ######## ######## ##########
+[DEBUG] 2025-07-25 19:03:17.994 [http-nio-9090-exec-2] AuthRestAPIs - ######## ### DELETE USER BY ID
+[DEBUG] 2025-07-25 19:03:22.143 [http-nio-9090-exec-3] AuthRestAPIs - ######## ### DELETE USER BY ID
+[DEBUG] 2025-07-25 19:03:25.271 [http-nio-9090-exec-4] AuthRestAPIs - ######## ### DELETE USER BY ID
+[DEBUG] 2025-07-25 19:03:28.527 [http-nio-9090-exec-5] AuthRestAPIs - ######## ### DELETE USER BY ID
+[DEBUG] 2025-07-25 19:04:04.373 [http-nio-9090-exec-6] AuthRestAPIs - ######## ### FIND BY ID
+[DEBUG] 2025-07-25 19:04:04.376 [http-nio-9090-exec-6] AuthRestAPIs - ## NotFoundException Exception
+[ERROR] 2025-07-25 19:04:04.376 [http-nio-9090-exec-6] AuthRestAPIs - ### Exception : class com.thukera.model.messages.NotFoundException
+[ERROR] 2025-07-25 19:04:04.376 [http-nio-9090-exec-6] AuthRestAPIs - ### Message : Recurso não encontrado
+[DEBUG] 2025-07-25 19:04:16.848 [http-nio-9090-exec-7] AuthRestAPIs - ######## ### ######## ###  SIGN IN  ### ######## ### ########
+[DEBUG] 2025-07-25 19:04:27.657 [http-nio-9090-exec-8] AuthRestAPIs - ######## ### ######## ###  SIGN IN  ### ######## ### ########
+[DEBUG] 2025-07-25 19:04:51.685 [http-nio-9090-exec-9] AuthRestAPIs - ######## ### ######## ###  SIGN IN  ### ######## ### ########
+[DEBUG] 2025-07-25 19:04:55.136 [http-nio-9090-exec-10] AuthRestAPIs - ######## ### ######## ###  SIGN IN  ### ######## ### ########

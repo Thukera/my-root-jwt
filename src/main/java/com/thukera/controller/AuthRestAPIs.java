@@ -1,6 +1,9 @@
 package com.thukera.controller;
 
+import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Map;
+import java.util.NoSuchElementException;
 import java.util.Set;
 import java.util.Optional;
 
@@ -10,6 +13,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.authentication.BadCredentialsException;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
@@ -22,7 +26,6 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.security.access.prepost.PreAuthorize;
 
 import com.thukera.model.forms.LoginForm;
-import com.thukera.model.messages.InactiveException;
 import com.thukera.model.forms.SignUpForm;
 import com.thukera.model.messages.JwtResponse;
 import com.thukera.model.entities.Role;
@@ -35,135 +38,156 @@ import com.thukera.security.jwt.JwtProvider;
 
 import jakarta.validation.Valid;
 
-
-@CrossOrigin(
-	    origins = "http://localhost:3000",
-	    allowCredentials = "true",  // make sure it's set if needed
-	    maxAge = 3600
-	)
+@CrossOrigin(origins = "http://localhost:3000", allowCredentials = "true", maxAge = 3600) // make sure it's set if needed
 @RestController
 @RequestMapping("/api/auth")
 public class AuthRestAPIs {
 
 	private static final Logger logger = LogManager.getLogger(AuthRestAPIs.class);
-    
-    @Autowired
-    AuthenticationManager authenticationManager;
 
-    @Autowired
-    UserRepository userRepository;
+	@Autowired
+	AuthenticationManager authenticationManager;
 
-    @Autowired
-    RoleRepository roleRepository;
+	@Autowired
+	UserRepository userRepository;
 
-    @Autowired
-    PasswordEncoder encoder;
+	@Autowired
+	RoleRepository roleRepository;
 
-    @Autowired
-    JwtProvider jwtProvider;
+	@Autowired
+	PasswordEncoder encoder;
 
-    @PostMapping("/signin")
-    public ResponseEntity<?> authenticateUser(@Valid @RequestBody LoginForm loginRequest) {
-    	
-    	logger.info("######## ### ######## ###  SIGN IN  ### ######## ### ########");
+	@Autowired
+	JwtProvider jwtProvider;
 
-        Optional<User> usuario;
+	@PostMapping("/signin")
+	public ResponseEntity<?> authenticateUser(@Valid @RequestBody LoginForm loginRequest) {
 
-        if(loginRequest.getUsername().contains("@")) {
-            usuario = userRepository.findFirstByEmail(loginRequest.getUsername());
-        }
-        else {
-            usuario = userRepository.findByUsername(loginRequest.getUsername());
-        }
+		logger.debug("######## ### ######## ###  SIGN IN  ### ######## ### ########");
 
-        if(usuario.get().getStatus().equals(true)) {
-            Authentication authentication = authenticationManager.authenticate(
-                new UsernamePasswordAuthenticationToken(
-                        usuario.get().getUsername(),
-                        loginRequest.getPassword()
-                )
-            );
+		Optional<User> usuario;
 
-            SecurityContextHolder.getContext().setAuthentication(authentication);
-            String jwt = jwtProvider.generateJwtToken(authentication);
-            JwtResponse token = new JwtResponse(jwt);
+		try {
 
-            usuario.get().setToken(token);
-            usuario.get().setPassword("");
+			if (loginRequest.getUsername().contains("@")) {
+				usuario = userRepository.findFirstByEmail(loginRequest.getUsername());
+			} else {
+				usuario = userRepository.findByUsername(loginRequest.getUsername());
+			}
 
-            return ResponseEntity.ok(usuario.get().getToken());
-        }
-        else {
-            throw new InactiveException("Usuário inativo, contacte seu administrador!");
-        }
-    }
+			if (usuario.get().getStatus().equals(true)) {
+				Authentication authentication = authenticationManager
+						.authenticate(new UsernamePasswordAuthenticationToken(usuario.get().getUsername(),
+								loginRequest.getPassword()));
 
-    @PostMapping("/signup")
-    @PreAuthorize("hasRole('ADMIN')")
-    public ResponseEntity<?> registerUser(@Valid @RequestBody SignUpForm signUpRequest) {
-    	
-    	logger.info("######## ### ######## ###  SIGN UP  ### ######## ### ########");
-    	logger.info("######## ### Form : " + signUpRequest);
-    	
-        if(userRepository.existsByUsername(signUpRequest.getUsername())) {
-            return new ResponseEntity<String>("Fail -> Username está em uso!",
-                    HttpStatus.BAD_REQUEST);
-        }
+				SecurityContextHolder.getContext().setAuthentication(authentication);
+				String jwt = jwtProvider.generateJwtToken(authentication);
+				JwtResponse token = new JwtResponse(jwt);
 
-        if(userRepository.existsByEmail(signUpRequest.getEmail())) {
-            return new ResponseEntity<String>("Fail -> Email está em uso!",
-                    HttpStatus.BAD_REQUEST);
-        }
+				usuario.get().setToken(token);
+				usuario.get().setPassword("");
 
-        if(userRepository.existsByCpf(signUpRequest.getCpf())) {
-            return new ResponseEntity<String>("Fail -> CPF está em uso!!",
-                    HttpStatus.BAD_REQUEST);
-        }
+				return ResponseEntity.ok(usuario.get().getToken());
+			} else {
+				logger.debug("## Inactive User");
+				Map<String, String> body = new HashMap<>();
+				body.put("message", "Inactive User - contact your administrator");
+				return new ResponseEntity<>(body, HttpStatus.UNAUTHORIZED);
+			}
 
-        // Creating user's account
-        User user = new User(signUpRequest.getCpf(), signUpRequest.getName(), signUpRequest.getUsername(),
-                signUpRequest.getEmail(), encoder.encode(signUpRequest.getPassword()), signUpRequest.getStatus());
+		} catch (BadCredentialsException e) {
+			logger.debug("##  Bad Credentials");
+			logger.error("### Exception : " + e.getClass());
+			logger.error("### Message : " + e.getMessage());
+			Map<String, String> body = new HashMap<>();
+			body.put("message", "Bad Credentials");
+			return new ResponseEntity<>(body, HttpStatus.UNAUTHORIZED);
+		} catch (NoSuchElementException e) {
+			logger.debug("##  Not Found");
+			logger.error("### Exception : " + e.getClass());
+			logger.error("### Message : " + e.getMessage());
+			Map<String, String> body = new HashMap<>();
+			body.put("message", "User Not Found - contact your administrator");
+			return new ResponseEntity<>(body, HttpStatus.UNAUTHORIZED);
+		} catch (Exception e) {
+			logger.debug("## General Exception");
+			logger.error("### Exception : " + e.getClass());
+			logger.error("### Message : " + e.getMessage());
+			Map<String, String> body = new HashMap<>();
+			body.put("message", "Internal Server Error");
+			return new ResponseEntity<>(body, HttpStatus.INTERNAL_SERVER_ERROR);
+		}
+	}
 
-        //Empresa empresa = empresaRepository.findFirstById(signUpRequest.getCodigoEmpresa());
+	@PostMapping("/signup")
+	@PreAuthorize("hasRole('ADMIN')")
+	public ResponseEntity<?> registerUser(@Valid @RequestBody SignUpForm signUpRequest) {
 
-        //user.setEmpresa(empresa);
-        logger.info("######## ### User To Create : " + user);
-        
-        Set<String> strRoles = signUpRequest.getRole();
-        Set<Role> roles = new HashSet<>();
+		logger.info("######## ### ######## ###  SIGN UP  ### ######## ### ########");
 
-        strRoles.forEach(role -> {
-            switch(role) {
-                case "admin":
-                    Role adminRole = roleRepository.findByName(RoleName.ROLE_ADMIN)
-                    .orElseThrow(() -> new RuntimeException("Fail! -> Cause: ADMIN Role não encontrada."));
-                    roles.add(adminRole);
+		try {
 
-                    break;
-//                case "pm":
-//                    Role pmRole = roleRepository.findByName(RoleName.ROLE_PM)
-//                    .orElseThrow(() -> new RuntimeException("Fail! -> Cause: PM Role não encontrada."));
-//                    roles.add(pmRole);
-//
-//                    break;
-//                case "params":
-//                    Role paramsRole = roleRepository.findByName(RoleName.ROLE_PARAMS)
-//                    .orElseThrow(() -> new RuntimeException("Fail! -> Cause: PARAMS Role não encontrada."));
-//                    roles.add(paramsRole);
-//
-//                    break;
-                default:
-                    Role userRole = roleRepository.findByName(RoleName.ROLE_USER)
-                    .orElseThrow(() -> new RuntimeException("Fail! -> Cause: User Role não encontrada."));
-                    roles.add(userRole);
-            }
-        });
+			if (userRepository.existsByUsername(signUpRequest.getUsername())) {
+				logger.debug("### Username Exists!");
+				Map<String, String> body = new HashMap<>();
+				body.put("message", "Fail -> Username already in use!");
+				return new ResponseEntity<>(body, HttpStatus.CONFLICT);
+			}
 
-        logger.info("######## ### User To Roles : " + roles);
-        user.setRoles(roles);
-        userRepository.save(user);
-        logger.info("######## ### Saved");
-        
-        return ResponseEntity.ok().build();
-    }
+			if (userRepository.existsByEmail(signUpRequest.getEmail())) {
+				logger.debug("### Username Exists!");
+				Map<String, String> body = new HashMap<>();
+				body.put("message", "Fail -> Mail already in use!");
+				return new ResponseEntity<>(body, HttpStatus.CONFLICT);
+			}
+
+			if (userRepository.existsByDoc(signUpRequest.getDoc())) {
+				logger.debug("### Username Exists!");
+				Map<String, String> body = new HashMap<>();
+				body.put("message", "Fail -> DOC already in use!");
+				return new ResponseEntity<>(body, HttpStatus.CONFLICT);
+			}
+
+			// Creating user's account
+			User user = new User(signUpRequest.getDoc(), signUpRequest.getName(), signUpRequest.getUsername(),
+					signUpRequest.getEmail(), encoder.encode(signUpRequest.getPassword()), signUpRequest.getStatus());
+
+			Set<String> strRoles = signUpRequest.getRole();
+			Set<Role> roles = new HashSet<>();
+
+			strRoles.forEach(role -> {
+				switch (role) {
+				case "admin":
+					Role adminRole = roleRepository.findByName(RoleName.ROLE_ADMIN)
+							.orElseThrow(() -> new RuntimeException("Fail! -> Cause: ADMIN Role not found."));
+					roles.add(adminRole);
+
+					break;
+
+				default:
+					Role userRole = roleRepository.findByName(RoleName.ROLE_USER)
+							.orElseThrow(() -> 
+								new RuntimeException("Fail! -> Cause: User Role not found."));
+					roles.add(userRole);
+				}
+			});
+
+			user.setRoles(roles);
+			userRepository.save(user);
+			
+			logger.debug("### User Saved!!");
+			Map<String, String> body = new HashMap<>();
+			body.put("message", "User Created!");
+
+			return ResponseEntity.ok(body);
+
+		} catch (Exception e) {
+			logger.debug("## General Exception");
+			logger.error("### Exception : " + e.getClass());
+			logger.error("### Message : " + e.getMessage());
+			Map<String, String> body = new HashMap<>();
+			body.put("message", "Internal Server Error");
+			return new ResponseEntity<>(body, HttpStatus.INTERNAL_SERVER_ERROR);
+		}
+	}
 }
